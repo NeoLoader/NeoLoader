@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2BD6E09D-1CEF-46EE-A85F-D76A18C98B56}</ProjectGuid>
+    <RootNamespace>qjson</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;.\GeneratedFiles\$(Configuration);$(QTDIR)\include\qtmain;$(QTDIR)\include\QtCore;.;.\$(PlatformName)\GeneratedFiles\$(ConfigurationName);.\$(PlatformName)\GeneratedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QJSON_LIB;QJSON_MAKEDLL;QT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;.\GeneratedFiles\$(Configuration);$(QTDIR)\include\qtmain;$(QTDIR)\include\QtCore;.;.\$(PlatformName)\GeneratedFiles\$(ConfigurationName);.\$(PlatformName)\GeneratedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QJSON_LIB;QJSON_MAKEDLL;QT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;.\GeneratedFiles\$(Configuration);$(QTDIR)\include\qtmain;$(QTDIR)\include\QtCore;.;.\$(PlatformName)\GeneratedFiles\$(ConfigurationName);.\$(PlatformName)\GeneratedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_CORE_LIB;QJSON_LIB;QJSON_MAKEDLL;QT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;.\GeneratedFiles\$(Configuration);$(QTDIR)\include\qtmain;$(QTDIR)\include\QtCore;.;.\$(PlatformName)\GeneratedFiles\$(ConfigurationName);.\$(PlatformName)\GeneratedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_CORE_LIB;QJSON_LIB;QJSON_MAKEDLL;QT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>QT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>QT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\json_scanner.cpp" />
+    <ClCompile Include="..\src\parser.cpp" />
+    <ClCompile Include="..\src\parserrunnable.cpp" />
+    <ClCompile Include="..\src\qobjecthelper.cpp" />
+    <ClCompile Include="..\src\serializer.cpp" />
+    <ClCompile Include="..\src\serializerrunnable.cpp" />
+    <ClCompile Include="..\src\json_parser.cc" />
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_parserrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_serializerrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_parserrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_serializerrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_parserrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_serializerrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_parserrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_serializerrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_parserrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_serializerrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_parserrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_serializerrunnable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\src\json_scanner.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\parser.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\parser_p.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\parserrunnable.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing parserrunnable.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing parserrunnable.h...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_CORE_LIB -DQJSON_LIB -DQJSON_MAKEDLL -DQT_DLL -D_WINDLL  "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(Configuration)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I." "-I.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\." "-I.\$(PlatformName)\GeneratedFiles"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_CORE_LIB -DQJSON_LIB -DQJSON_MAKEDLL -DQT_DLL -D_WINDLL  "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(Configuration)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I." "-I.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\." "-I.\$(PlatformName)\GeneratedFiles"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing parserrunnable.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing parserrunnable.h...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQJSON_LIB -DQJSON_MAKEDLL -DQT_DLL -D_WINDLL  "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(Configuration)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I." "-I.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\." "-I.\$(PlatformName)\GeneratedFiles"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQJSON_LIB -DQJSON_MAKEDLL -DQT_DLL -D_WINDLL  "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(Configuration)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I." "-I.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\." "-I.\$(PlatformName)\GeneratedFiles"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DQT_DLL </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Moc%27ing parserrunnable.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DQT_DLL </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Moc%27ing parserrunnable.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qjson_debug.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qjson_export.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qobjecthelper.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\serializer.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\serializerrunnable.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing serializerrunnable.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing serializerrunnable.h...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_CORE_LIB -DQJSON_LIB -DQJSON_MAKEDLL -DQT_DLL -D_WINDLL  "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(Configuration)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I." "-I.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\." "-I.\$(PlatformName)\GeneratedFiles"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_CORE_LIB -DQJSON_LIB -DQJSON_MAKEDLL -DQT_DLL -D_WINDLL  "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(Configuration)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I." "-I.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\." "-I.\$(PlatformName)\GeneratedFiles"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing serializerrunnable.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing serializerrunnable.h...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQJSON_LIB -DQJSON_MAKEDLL -DQT_DLL -D_WINDLL  "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(Configuration)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I." "-I.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\." "-I.\$(PlatformName)\GeneratedFiles"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQJSON_LIB -DQJSON_MAKEDLL -DQT_DLL -D_WINDLL  "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(Configuration)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I." "-I.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\." "-I.\$(PlatformName)\GeneratedFiles"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DQT_DLL </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Moc%27ing serializerrunnable.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DQT_DLL </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Moc%27ing serializerrunnable.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\$(PlatformName)\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\src\json_parser.hh">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\json_parser.yy">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\location.hh">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\position.hh">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\src\stack.hh">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|x64'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+      </AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties lreleaseOptions="" lupdateOnBuild="0" lupdateOptions="" MocDir=".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)" MocOptions="" QtVersion_x0020_Win32="$(DefaultQtVersion)" RccDir=".\$(PlatformName)\GeneratedFiles" UicDir=".\$(PlatformName)\GeneratedFiles" Qt5Version_x0020_x64="Qt 5.1.0 msvc2012_64" Qt5Version_x0020_Win32="$(DefaultQtVersion)" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

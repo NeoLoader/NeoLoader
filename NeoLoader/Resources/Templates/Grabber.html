@@ -1,0 +1,96 @@
+﻿<!-- Grabber -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Add Links</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <script type="text/javascript" src="/Resources/WndHelper.js"></script>
+</head>
+<body>
+    <br>
+    <table border="1" width="100%">
+      <tr>
+        <th width="50%">Uris</th>
+        <th width="20%">Status</th>
+        <th width="30%">Result</th>
+      </tr>
+      {Tasks}
+    </table>
+    <a href="/WebUI/Grabber/?Action=Remove">Remove All</a> <a href="/WebUI/Grabber/?Action=Cleanup">Cleanup</a> <a href="/WebUI/Grabber/">Refresh</a>
+    <br><br>
+    <form method="post" action="/WebUI/Grabber/" enctype="multipart/form-data">
+    Insert Links to Add:<br>
+    <textarea name="Links" rows="4" cols="50"></textarea><br>
+    Upload <a href="/Torrent/">Torrent File</a> | Read <a href="/WebUI/Grabber/Reader/" target="Reader" onclick="OpenWindow(this.href, this.target, 'menubar=0,resizable=1,width=300,height=100'); return false;">QR Code</a> | or Upload a Link <a href="/Container/">Container</a> <br>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+<!-- /Grabber -->
+<!-- Task -->
+<tr>
+    <td align="left">{Uris}</td>
+    <td class="no_wrap" align="right">{Status} (<a href="/WebUI/Grabber/?ID={ID}&Action=Remove">Remove</a>)</td>
+    <td class="no_wrap" align="right">{Result}</td>
+</tr>
+<!-- /Task -->
+<!-- TasksPending -->
+{Count} <a href="/WebUI/Tasks/{ID}">Task</a> pending
+<!-- /TasksPending -->
+<!-- TasksFailed -->
+, Failed: {FailedCount} (<a href="/WebUI/Grabber/?ID={ID}&Action=Cleanup">Cleanup</a>)
+<!-- /TasksFailed -->
+<!-- Done -->
+Done
+<!-- /Done -->
+<!-- FileResult -->
+Grabbed <a href="/WebUI/Files/?GrabberID={ID}" target="List" onclick="window.opener.parent.frames['Main'].location = this.href; return false;">{Count} Files</a>
+<!-- /FileResult -->
+<!-- SiteResult -->
+Indexed <a href="/WebUI/Grabber/{ID}/">{Count} Sites</a>
+<!-- /SiteResult -->
+<!-- Reader -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Indexed Sites</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+</head>
+<body>
+    <form method="post" action="/WebAPI/DecodeQr/" enctype="multipart/form-data" target="QrDecoder">
+        Sellect QRCode Immage:
+        <input type="file" name="Code" size="50"/>
+        <input type="submit" value="Submit">
+    </form>
+    <iframe src="about:blank" name="QrDecoder" width="250" height="20" frameBorder="0" onload="if(this.contentDocument.body.innerHTML != '') {window.opener.document.getElementsByName('Links')[0].value = this.contentDocument.body.innerHTML; this.contentWindow.location = 'about:blank';}"></iframe>
+</body>
+</html>
+<!-- /Reader -->
+<!-- Index -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Indexed Sites</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+</head>
+<body>
+    <br>
+    <table border="1" width="100%">
+      <tr>
+        <th width="40%">Title</th>
+        <th width="60%">Url</th>
+      </tr>
+      {Sites}
+    </table>
+</body>
+</html>
+<!-- /Index -->
+<!-- Site -->
+<tr>
+    <td align="left">{Title}</td>
+    <td align="left">{Url}</td>
+</tr>
+<!-- /Site -->

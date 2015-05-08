@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Console</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <script type="text/javascript">
+        function ExecuteCommand() {
+            var Command = document.getElementsByName("Command")[0].value;
+            if (Command.length == 0)
+                return;
+            var Parameters = document.getElementsByName("Request")[0].value;
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+                    document.getElementsByName("Response")[0].value = xmlhttp.responseText;
+            }
+            //xmlhttp.open("POST", "", true);
+            //xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            //xmlhttp.send("Command=" + Command + "&Parameters=" + encodeURIComponent(Parameters));
+            xmlhttp.open("POST", "/Console/?Command=" + Command, true);
+            xmlhttp.setRequestHeader("Content-Type", "text/xml");
+            xmlhttp.send(Parameters);
+        }
+    </script>
+</head>
+<body>
+    <form method="post" action="" onsubmit="ExecuteCommand(); return false;" enctype="application/x-www-form-urlencoded">
+    <input STYLE="width: 300px" type="text" name="Command"  value="">
+    <input type="submit" value="Execute"><br>
+    <textarea name="Request" rows="10" cols="80"></textarea><br>
+    </form>
+    <textarea name="Response" rows="10" cols="80"></textarea><br>
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿<!-- Frame -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>WebUI</title>
+</head>
+<frameset border="0" frameSpacing="" rows="114,*" frameborder="">
+    <frame name="Top" marginWidth="0" marginHeight="0" src="/WebUI/Main/?Frame=Top"  scrolling="no" target="_self">
+    <frame name="Main" marginWidth="10" marginHeight="10" src="/WebUI/Files/" target="_self" scrolling="auto">
+</frameset>
+<body>
+</body>
+</html>
+<!-- /Frame -->
+<!-- Top -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>WebUI - Top</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <script type="text/javascript" src="/Resources/WndHelper.js"></script>
+</head>
+<body>
+	<div class="contentfield" style="margin-top: 10px;">
+		<img src="/Resources/logo_small.png" alt="NeoLoader" title="NeoLoader" width="250" height="42">
+		<br><br>
+		<div id="dir_head">
+			<table border="0"><tbody>
+				<tr>
+			  		<td><h1>View:<h1></td>
+			  		<td width="5"></td>
+			  		<td><a href="/WebUI/Files/" target="Main">All Files</a></td>
+			  		<td width="5">/</td>
+			  		<td><a href="/WebUI/Files/?Status=Loading" target="Main">Downloads</a></td>
+			  		<td width="5">/</td>
+			  		<td><a href="/WebUI/Files/?Status=Sharing" target="Main">Uploads</a></td>
+			  		<td width="5">/</td>
+			  		<td><a href="/WebUI/Files/?Status=Pending" target="Main">Grabbed Files</a></td>
+			  		<td width="10"></td>
+				  	<td width="5"></td>
+				  	<td><a href="/WebUI/Search/" target="Main">Search</a></td>
+				  	<td width="10"></td>
+			  	
+				  	<td><h1>Tools:<h1></td>
+				  	<td width="5"></td>
+				  	<td><a href="/Solver/" target="Solver" onclick="OpenWindow(this.href, this.target, 'menubar=0,resizable=1,width=350,height=150'); return false;">Captcha Solver</a></td>
+				  	<td width="5">, </td>
+                    <td><a href="/Prompt/" target="Prompt" onclick="OpenWindow(this.href, this.target, 'menubar=0,resizable=1,width=350,height=150'); return false;">User Prompt</a></td>
+				  	<td width="5">, </td>
+				  	<td><a href="/WebUI/Grabber/" target="Grabber" onclick="OpenWindow(this.href,this.target,'menubar=0,resizable=1,width=450,height=350'); return false;">File Grabebr</a></td>
+				  	<td width="5">, </td>
+				  	<td><a href="/WebUI/Tasks/" target="Tasks" onclick="OpenWindow(this.href,this.target,'menubar=0,resizable=1,width=450,height=350'); return false;">Tasks List</a></td>
+			  		<td width="10"></td>
+			  	
+				  	<td><h1>Other:<h1></td>
+				  	<td width="5"></td>
+			  		<td><a href="/Config/" target="Main">Settings</a></td>
+			  		<td width="5">, </td>
+			  		<td><a href="/Console/" target="Main">Console</a></td>
+			  		<td width="5">, </td>
+			  		<td><a href="/WebUI/Log/#Refresh" target="Log" onclick="OpenWindow(this.href,this.target,'menubar=0,resizable=1,width=640,height=480'); return false;">Log</a></td>
+			  		<td width="10"></td>
+				</tr>
+			</tbody></table>	
+		</div>
+	</div>
+</body>
+</html>
+<!-- /Top -->
+<!-- Log -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <title>Log</title>
+</head>
+<body>
+    {Lines}
+    <a name="Refresh" href="/WebUI/Log{Log}#Refresh">Refresh Log</a>
+</body>
+</html>
+<!-- /Log -->
+<!-- Line -->
+<span class="{Color}">{Time}: {Line}</span><br>
+<!-- /Line -->

@@ -1,0 +1,9 @@
+usr/lib/lib*.so
+usr/lib/*.la
+usr/lib/pkgconfig/*
+usr/include/ZenLib/*
+usr/include/ZenLib/HTTP_Client/*
+usr/include/ZenLib/Format/Html/*
+usr/include/ZenLib/Format/Http/*
+usr/share/doc/libzen-dev/Documentation.html
+usr/share/doc/libzen-dev/Doc/*

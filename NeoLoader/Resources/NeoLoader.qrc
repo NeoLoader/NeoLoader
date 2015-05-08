@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="DebugLog">DebugLog.ico</file>
+        <file alias="Home">Home.ico</file>
+        <file alias="Log">Log.ico</file>
+        <file alias="httpError">httpError.html</file>
+        <file>index.html</file>
+        <file>logo_small.png</file>
+        <file>style.css</file>
+        <file alias="Login">Login.html</file>
+        <file>combo.css</file>
+        <file>combo.js</file>
+        <file alias="ErrPattern">ErrPattern.png</file>
+        <file>WndHelper.js</file>
+        <file>Icon16.png</file>
+        <file>Icon32.png</file>
+        <file>Icon64.png</file>
+        <file alias="Splash">Splash.gif</file>
+        <file>KadScripts/Index.inf</file>
+        <file>KadScripts/KeywordIndex.js</file>
+        <file>KadScripts/LinkSafe.js</file>
+        <file>KadScripts/SharingHub.js</file>
+        <file>KadScripts/RatingAgent.js</file>
+        <file>KadScripts/SourceTracker.js</file>
+        <file>KadScripts/FileRepository.js</file>
+        <file alias="Templates/About">Templates/About.html</file>
+        <file alias="Templates/Config">Templates/Config.html</file>
+        <file alias="Templates/Console">Templates/Console.html</file>
+        <file alias="Templates/Container">Templates/Container.html</file>
+        <file alias="Templates/Files">Templates/Files.html</file>
+        <file alias="Templates/Grabber">Templates/Grabber.html</file>
+        <file alias="Templates/Links">Templates/Links.html</file>
+        <file alias="Templates/Main">Templates/Main.html</file>
+        <file alias="Templates/Maker">Templates/Maker.html</file>
+        <file alias="Templates/Search">Templates/Search.html</file>
+        <file alias="Templates/Prompt">Templates/Prompt.html</file>
+        <file alias="Templates/Solver">Templates/Solver.html</file>
+        <file alias="Templates/Tasks">Templates/Tasks.html</file>
+        <file alias="Templates/Torrent">Templates/Torrent.html</file>
+        <file alias="Templates/Upload">Templates/Upload.html</file>
+    </qresource>
+</RCC>

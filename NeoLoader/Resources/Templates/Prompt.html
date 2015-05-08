@@ -1,0 +1,38 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>User Prompt</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+</head>
+<body>
+    <form id="Prompt" method="post" action="" enctype="application/x-www-form-urlencoded">
+    <input id="ID" type="hidden" name="ID"  value="{ID}">
+    <input id="TimeOut" type="hidden" name="TimeOut"  value="{TimeOut}">
+    <br>{HtmlCode}<br>
+    <input id="Submit" type="submit" value="Submit" disabled> <i id="CountDown"></i>
+    </form>
+    <script type="text/javascript">
+        if (document.getElementById("ID").value != "0") {
+            document.getElementById("Submit").disabled = false;
+            timeOut = document.getElementById("TimeOut").value;
+            if (timeOut != -1)
+                TimeOut();
+        }
+        else {
+            setTimeout("location.href = '/Prompt/';", 3000);
+        }
+
+        function TimeOut() {
+            if (timeOut == 0)
+                document.getElementById("Prompt").submit();
+            else {
+                document.getElementById("CountDown").innerHTML = "CountDown: " + timeOut;
+                setTimeout("TimeOut()", 1000);
+                timeOut = timeOut - 1;
+                document.getElementById("TimeOut").value = timeOut;
+            }
+        }
+    </script>
+</body>
+</html>

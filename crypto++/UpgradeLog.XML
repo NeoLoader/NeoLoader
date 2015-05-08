@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="cryptest">
+</Property><Property Name="Projektmappendatei" Value="F:\test\cryptopp561\cryptest.sln">
+</Property><Property Name="Date" Value="Samstag, 30. Juli 2011">
+</Property><Property Name="Time" Value="22:18">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="cryptest.sln" Description="Datei wurde erfolgreich als &quot;F:\test\cryptopp561\cryptest.sln.old&quot; gesichert">
+</Event><Event ErrorLevel="1" Project="cryptdll" Source="cryptdll.vcproj" Description="Die Anwendung wurde aktualisiert und enthält nun auch Einstellungen für die Benutzerkontensteuerung (User Account Control, UAC) von Windows Vista. Standardmäßig wird die Anwendung beim Ausführen unter Windows Vista mit aktivierter Benutzerkontensteuerung so markiert, dass sie mit den gleichen Berechtigungen wie der Prozess ausgeführt wird, durch den sie gestartet wurde. Mit der Markierung wird auch das Ausführen der Anwendung mit Virtualisierung deaktiviert. Sie können die Einstellungen der Benutzerkontensteuerung über die Eigenschaftenseiten des Projekts ändern.">
+</Event><Event ErrorLevel="0" Project="cryptdll" Source="cryptdll.vcproj" Description="Die Projektdatei wurde erfolgreich als &quot;F:\test\cryptopp561\cryptdll.vcproj.8.00.old&quot; gesichert.">
+</Event><Event ErrorLevel="0" Project="cryptdll" Source="cryptdll.vcproj" Description="Das Projekt wurde erfolgreich aktualisiert.">
+</Event><Event ErrorLevel="3" Project="cryptdll" Source="cryptdll.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="cryptest" Source="cryptest.vcproj" Description="Die Anwendung wurde aktualisiert und enthält nun auch Einstellungen für die Benutzerkontensteuerung (User Account Control, UAC) von Windows Vista. Standardmäßig wird die Anwendung beim Ausführen unter Windows Vista mit aktivierter Benutzerkontensteuerung so markiert, dass sie mit den gleichen Berechtigungen wie der Prozess ausgeführt wird, durch den sie gestartet wurde. Mit der Markierung wird auch das Ausführen der Anwendung mit Virtualisierung deaktiviert. Sie können die Einstellungen der Benutzerkontensteuerung über die Eigenschaftenseiten des Projekts ändern.">
+</Event><Event ErrorLevel="0" Project="cryptest" Source="cryptest.vcproj" Description="Die Projektdatei wurde erfolgreich als &quot;F:\test\cryptopp561\cryptest.vcproj.8.00.old&quot; gesichert.">
+</Event><Event ErrorLevel="0" Project="cryptest" Source="cryptest.vcproj" Description="Das Projekt wurde erfolgreich aktualisiert.">
+</Event><Event ErrorLevel="3" Project="cryptest" Source="cryptest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="cryptlib" Source="cryptlib.vcproj" Description="Die Anwendung wurde aktualisiert und enthält nun auch Einstellungen für die Benutzerkontensteuerung (User Account Control, UAC) von Windows Vista. Standardmäßig wird die Anwendung beim Ausführen unter Windows Vista mit aktivierter Benutzerkontensteuerung so markiert, dass sie mit den gleichen Berechtigungen wie der Prozess ausgeführt wird, durch den sie gestartet wurde. Mit der Markierung wird auch das Ausführen der Anwendung mit Virtualisierung deaktiviert. Sie können die Einstellungen der Benutzerkontensteuerung über die Eigenschaftenseiten des Projekts ändern.">
+</Event><Event ErrorLevel="0" Project="cryptlib" Source="cryptlib.vcproj" Description="Die Projektdatei wurde erfolgreich als &quot;F:\test\cryptopp561\cryptlib.vcproj.8.00.old&quot; gesichert.">
+</Event><Event ErrorLevel="0" Project="cryptlib" Source="cryptlib.vcproj" Description="Das Projekt wurde erfolgreich aktualisiert.">
+</Event><Event ErrorLevel="3" Project="cryptlib" Source="cryptlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="dlltest" Source="dlltest.vcproj" Description="Die Anwendung wurde aktualisiert und enthält nun auch Einstellungen für die Benutzerkontensteuerung (User Account Control, UAC) von Windows Vista. Standardmäßig wird die Anwendung beim Ausführen unter Windows Vista mit aktivierter Benutzerkontensteuerung so markiert, dass sie mit den gleichen Berechtigungen wie der Prozess ausgeführt wird, durch den sie gestartet wurde. Mit der Markierung wird auch das Ausführen der Anwendung mit Virtualisierung deaktiviert. Sie können die Einstellungen der Benutzerkontensteuerung über die Eigenschaftenseiten des Projekts ändern.">
+</Event><Event ErrorLevel="0" Project="dlltest" Source="dlltest.vcproj" Description="Die Projektdatei wurde erfolgreich als &quot;F:\test\cryptopp561\dlltest.vcproj.8.00.old&quot; gesichert.">
+</Event><Event ErrorLevel="0" Project="dlltest" Source="dlltest.vcproj" Description="Das Projekt wurde erfolgreich aktualisiert.">
+</Event><Event ErrorLevel="3" Project="dlltest" Source="dlltest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="cryptest.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="cryptest.sln" Description="Converted">
+</Event></UpgradeLog>

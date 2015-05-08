@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="miniupnp">
+      <UniqueIdentifier>{76bc69f5-494b-4716-9de7-a2ed705038b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libnatpmp">
+      <UniqueIdentifier>{37cb4780-662f-4e92-8c39-13faebeb6eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{6e6409a9-1766-45c0-af57-31f0c832731c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{1692099f-16b8-4907-a6b4-30a1fe458ff0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{eb09be23-61b9-4f4e-84fb-15ea321b8262}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{82f6b7c5-95ef-4d99-b47d-4cee256b4648}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="miniupnp\connecthostport.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="miniupnp\igd_desc_parse.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="miniupnp\minisoap.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="miniupnp\minissdpc.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="miniupnp\miniupnpc.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="miniupnp\miniwget.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="miniupnp\minixml.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="miniupnp\upnpcommands.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="miniupnp\upnpreplyparse.c">
+      <Filter>miniupnp</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniUPnP.cpp" />
+    <ClCompile Include="libnatpmp\getgateway.c">
+      <Filter>libnatpmp</Filter>
+    </ClCompile>
+    <ClCompile Include="libnatpmp\natpmp.c">
+      <Filter>libnatpmp</Filter>
+    </ClCompile>
+    <ClCompile Include="libnatpmp\wingettimeofday.c">
+      <Filter>libnatpmp</Filter>
+    </ClCompile>
+    <ClCompile Include="upnp-impl.cpp" />
+    <ClCompile Include="natpmp-impl.cpp" />
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MiniUPnP.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MiniUPnP.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MiniUPnP.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MiniUPnP.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MiniUPnP.h" />
+    <CustomBuild Include="natpmp-impl.h" />
+    <CustomBuild Include="states-impl.h" />
+    <CustomBuild Include="upnp-impl.h" />
+    <CustomBuild Include="miniupnp_global.h" />
+    <CustomBuild Include="miniupnp\bsdqueue.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\codelength.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\connecthostport.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\declspec.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\igd_desc_parse.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\minisoap.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\minissdpc.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\miniupnpc.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\miniupnpcstrings.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\miniwget.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\minixml.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\upnpcommands.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="miniupnp\upnpreplyparse.h">
+      <Filter>miniupnp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libnatpmp\declspec.h">
+      <Filter>libnatpmp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libnatpmp\getgateway.h">
+      <Filter>libnatpmp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libnatpmp\natpmp.h">
+      <Filter>libnatpmp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libnatpmp\wingettimeofday.h">
+      <Filter>libnatpmp</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

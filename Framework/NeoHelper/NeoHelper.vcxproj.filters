@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{5b6033a2-a77b-4d6a-8643-5544d0f94e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Cryptography">
+      <UniqueIdentifier>{e9781512-2663-4b24-a1e3-3e5fa4d0d092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\MT">
+      <UniqueIdentifier>{45ba778c-65ef-4a05-9d92-2da3c49fdaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\IPC">
+      <UniqueIdentifier>{a5074af4-8f3f-4e8b-afb7-15ebf08e16af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Forms">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Framework\HttpServer">
+      <UniqueIdentifier>{302557f9-e226-4dcf-805f-ae5093ddd178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug_Win32">
+      <UniqueIdentifier>{f8249814-6eb6-4ade-9261-d075ec8f6040}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release_Win32">
+      <UniqueIdentifier>{d424f0e0-1bc4-4e45-8004-07014154c36a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Template_Win32">
+      <UniqueIdentifier>{edf1a719-d074-4e01-b88a-658328ad9b31}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug_x64">
+      <UniqueIdentifier>{6a85b3f4-2973-4e78-8121-d0c6b7ebc052}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release_x64">
+      <UniqueIdentifier>{6145f10e-e76a-4283-b825-ad93f0566db3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Template_x64">
+      <UniqueIdentifier>{73664700-2586-49db-a4dc-919229b452b1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Framework\MEM">
+      <UniqueIdentifier>{2e8efbd1-a5b1-46dd-befb-08229b6f6ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Archive">
+      <UniqueIdentifier>{fd39fce8-0f45-4d48-a0ff-d3639b9786e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Buffer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DebugHelpers.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Functions.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ObjectEx.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Settings.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Strings.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tracker.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xml.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cryptography\AbstractKey.cpp">
+      <Filter>Framework\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cryptography\HashFunction.cpp">
+      <Filter>Framework\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cryptography\KeyExchange.cpp">
+      <Filter>Framework\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cryptography\SymmetricKey.cpp">
+      <Filter>Framework\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MT\ThreadEx.cpp">
+      <Filter>Framework\MT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MT\ThreadLock.cpp">
+      <Filter>Framework\MT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IPC\IPCClient.cpp">
+      <Filter>Framework\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IPC\IPCServer.cpp">
+      <Filter>Framework\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IPC\IPCSocket.cpp">
+      <Filter>Framework\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalHeader.cpp" />
+    <ClCompile Include="..\qzlib.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HttpServer\HttpHelper.cpp">
+      <Filter>Framework\HttpServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HttpServer\HttpServer.cpp">
+      <Filter>Framework\HttpServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HttpServer\HttpSocket.cpp">
+      <Filter>Framework\HttpServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RequestManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Address.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Maths.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_RequestManager.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_RequestManager.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_RequestManager.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_RequestManager.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_RequestManager.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_RequestManager.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HttpSocket.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HttpSocket.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_HttpSocket.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HttpSocket.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HttpSocket.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_HttpSocket.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HttpServer.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HttpServer.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_HttpServer.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HttpServer.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HttpServer.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_HttpServer.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ThreadEx.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ThreadEx.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ThreadEx.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ThreadEx.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ThreadEx.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ThreadEx.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Settings.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Settings.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Settings.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Settings.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Settings.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Settings.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ObjectEx.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ObjectEx.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ObjectEx.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ObjectEx.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ObjectEx.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ObjectEx.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_IPCSocket.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_IPCSocket.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_IPCSocket.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_IPCSocket.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_IPCSocket.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_IPCSocket.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_IPCServer.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_IPCServer.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_IPCServer.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_IPCServer.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_IPCServer.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_IPCServer.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_IPCClient.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_IPCClient.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_IPCClient.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_IPCClient.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_IPCClient.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_IPCClient.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IPC\JobManager.cpp">
+      <Filter>Framework\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_JobManager.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_JobManager.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_JobManager.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_JobManager.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_JobManager.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_JobManager.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cryptography\PrivateKey.cpp">
+      <Filter>Framework\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cryptography\PublicKey.cpp">
+      <Filter>Framework\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OtherFunctions.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TempFile.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TempFile.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TempFile.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TempFile.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TempFile.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TempFile.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TempFile.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MEM\MicroAllocator.cpp">
+      <Filter>Framework\MEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MEM\STLAllocator.cpp">
+      <Filter>Framework\MEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\Archive.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\ArchiveExtractor.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\ArchiveHelper.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\ArchiveInterface.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\ArchiveOpener.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\ArchiveThread.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ArchiveThread.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ArchiveThread.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ArchiveThread.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ArchiveThread.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ArchiveThread.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ArchiveThread.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\ArchiveUpdater.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\CachedArchive.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Archive\SplitFile.cpp">
+      <Filter>Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SplitFile.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SplitFile.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SplitFile.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SplitFile.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_SplitFile.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_SplitFile.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Functions.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ObjectEx.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Settings.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\MT\ThreadEx.h">
+      <Filter>Framework\MT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\IPC\IPCClient.h">
+      <Filter>Framework\IPC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\IPC\IPCServer.h">
+      <Filter>Framework\IPC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\IPC\IPCSocket.h">
+      <Filter>Framework\IPC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\HttpServer\HttpServer.h">
+      <Filter>Framework\HttpServer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\HttpServer\HttpSocket.h">
+      <Filter>Framework\HttpServer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\RequestManager.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GlobalHeader.h" />
+    <CustomBuild Include="neohelper_global.h" />
+    <CustomBuild Include="..\Address.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Buffer.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\DebugHelpers.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Exception.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Maths.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qzlib.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Scope.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Strings.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Tracker.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Types.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Xml.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Cryptography\AbstractKey.h">
+      <Filter>Framework\Cryptography</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Cryptography\AsymmetricKey.h">
+      <Filter>Framework\Cryptography</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Cryptography\HashFunction.h">
+      <Filter>Framework\Cryptography</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Cryptography\KeyExchange.h">
+      <Filter>Framework\Cryptography</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Cryptography\SymmetricKey.h">
+      <Filter>Framework\Cryptography</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\MT\ThreadLock.h">
+      <Filter>Framework\MT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\HttpServer\HttpHelper.h">
+      <Filter>Framework\HttpServer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\IPC\JobManager.h">
+      <Filter>Framework\IPC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\TempFile.h">
+      <Filter>Framework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Archive\ArchiveThread.h">
+      <Filter>Framework\Archive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Archive\SplitFile.h">
+      <Filter>Framework\Archive</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Cryptography\PrivateKey.h">
+      <Filter>Framework\Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cryptography\PublicKey.h">
+      <Filter>Framework\Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OtherFunctions.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MEM\MicroAllocator.h">
+      <Filter>Framework\MEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MEM\STLAllocator.h">
+      <Filter>Framework\MEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Archive\Archive.h">
+      <Filter>Framework\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Archive\ArchiveExtractor.h">
+      <Filter>Framework\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Archive\ArchiveHelper.h">
+      <Filter>Framework\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Archive\ArchiveInterface.h">
+      <Filter>Framework\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Archive\ArchiveIO.h">
+      <Filter>Framework\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Archive\ArchiveOpener.h">
+      <Filter>Framework\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Archive\ArchiveUpdater.h">
+      <Filter>Framework\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Archive\CachedArchive.h">
+      <Filter>Framework\Archive</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

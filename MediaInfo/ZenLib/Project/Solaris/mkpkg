@@ -1,0 +1,94 @@
+#!/bin/bash
+
+#Config
+user=`id -un`
+group=`id -gn`
+processor=`uname -p`
+kernel=`uname -s`
+release=`uname -r`
+
+#Creation of known directories and filenames
+name="libzen0"
+version="0.4.30"
+Home=`pwd`
+install_prefix=${Home}/mk_package
+packagecreation_prefix=${Home}/create_package
+if test -z ${basedir}; then
+  basedir="/"
+fi
+
+#Common code
+. ./mkpkg.sub
+
+#Compile and install
+cd ../GNU/Library
+./autogen
+./configure --prefix=${install_prefix} --enable-shared --disable-static $*
+make
+if test -e .libs/libzen.so; then
+  echo "Compilation OK"
+else
+  echo "Compilation problem"
+  exit 1
+fi
+
+#****************************************************************************
+# Release 
+#****************************************************************************
+
+cd ${Home}
+mkdir -p ${install_prefix}
+
+#Copying useful files
+install -d -m 755 ${install_prefix}/lib
+cp -rP ../GNU/Library/.libs/*.so* ${install_prefix}/lib
+install -d -m 755 ${install_prefix}/share/doc/${name}
+cp ../../*.txt ${install_prefix}/share/doc/${name}
+chmod 644 ${install_prefix}/share/doc/${name}/*.txt
+
+#Creation of package
+pkgname="${name}"
+PackageCreate
+
+#****************************************************************************
+# Devel 
+#****************************************************************************
+
+cd ${Home}
+mkdir -p ${install_prefix}
+
+#include
+install -d -m 755 ${install_prefix}/include/ZenLib
+cp ../../Source/ZenLib/*.h ${install_prefix}/include/ZenLib/
+chmod 644 ${install_prefix}/include/ZenLib/*.h
+install -d -m 755 ${install_prefix}/include/ZenLib/Base64
+cp ../../Source/ZenLib/Base64/*.h ${install_prefix}/include/ZenLib/Base64
+chmod 644 ${install_prefix}/include/ZenLib/Base64/*.h
+install -d -m 755 ${install_prefix}/include/ZenLib/HTTP_Client
+cp ../../Source/ZenLib/HTTP_Client/*.h ${install_prefix}/include/ZenLib/HTTP_Client
+chmod 644 ${install_prefix}/include/ZenLib/HTTP_Client/*.h
+install -d -m 755 ${install_prefix}/include/ZenLib/Format/Html
+cp ../../Source/ZenLib/Format/Html/*.h ${install_prefix}/include/ZenLib/Format/Html
+chmod 644 ${install_prefix}/include/ZenLib/Format/Html/*.h
+install -d -m 755 ${install_prefix}/include/ZenLib/Format/Http
+cp ../../Source/ZenLib/Format/Http/*.h ${install_prefix}/include/ZenLib/Format/Http
+chmod 644 ${install_prefix}/include/ZenLib/Format/Http/*.h
+install -d -m 755 ${install_prefix}/include/ZenLib/TinyXml
+cp ../../Source/ZenLib/TinyXml/*.h ${install_prefix}/include/ZenLib/TinyXml
+chmod 644 ${install_prefix}/include/ZenLib/TinyXml/*.h
+install -d -m 755 ${install_prefix}/bin
+cp ../GNU/Library/libzen-config ${install_prefix}/bin
+chmod 755 ${install_prefix}/bin/*
+
+#depend file
+mkdir -p ${packagecreation_prefix}
+echo "P ${name}" > ${packagecreation_prefix}/depend
+
+pkgname="${name}-devel"
+PackageCreate
+
+exit 0
+
+#hints
+#install: pkgadd -R /opt/libzen0 -d./ libzen0
+#remove: pkgrm libzen0, remove /var/spool/name/libzen0

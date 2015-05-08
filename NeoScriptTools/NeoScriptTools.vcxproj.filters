@@ -1,0 +1,1295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="debugging">
+      <UniqueIdentifier>{003b7291-bfb2-4076-9857-3356f904a73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="V8Debugging">
+      <UniqueIdentifier>{b8e7493b-ad6a-462a-a28e-d321f80b129b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\scripts">
+      <UniqueIdentifier>{9535247d-9a5c-4060-a7be-6c6cd465f4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging\original">
+      <UniqueIdentifier>{8600aec7-d2b9-4a7e-9e3c-f30d80e3a1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging\console">
+      <UniqueIdentifier>{7f72afe2-77b0-4e30-bb65-df89914ac548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging\backend">
+      <UniqueIdentifier>{9861ec72-27da-40cd-9043-cfc541ca561a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSDebugging">
+      <UniqueIdentifier>{d10e88b0-004f-4768-98c2-149be12dbbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{7802264d-ea38-489f-b806-70f375cbace0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{b581e403-32db-4108-91f1-e53d0c595fd1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{67ba52a5-9996-4101-8203-ab754848794b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{cbc7a360-4cf0-4b5a-b9f3-a0b0cb0dae86}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debugging\qscriptbreakpointdata.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptbreakpointsmodel.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptbreakpointswidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptbreakpointswidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptcompletiontask.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptcompletiontaskinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercodefinderwidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercodefinderwidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercodeview.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercodeviewinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercodewidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercodewidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercommand.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercommandschedulerfrontend.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercommandschedulerjob.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerconsolewidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerconsolewidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerevent.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerfrontend.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerjob.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerlocalsmodel.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerlocalswidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerlocalswidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerresponse.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerscriptsmodel.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerscriptswidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerscriptswidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerstackmodel.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerstackwidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerstackwidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerstandardwidgetfactory.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggervalue.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggervalueproperty.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebugoutputwidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebugoutputwidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptedit.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscripterrorlogwidget.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscripterrorlogwidgetinterface.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptscriptdata.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptstdmessagehandler.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptsyntaxhighlighter.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="V8Debugging\V8ScriptDebuggerFrontend.cpp">
+      <Filter>V8Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercontextinfo.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="V8Debugging\V8DebugAdapter.cpp">
+      <Filter>V8Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggeragent.cpp">
+      <Filter>debugging\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerbackend.cpp">
+      <Filter>debugging\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebugger.cpp">
+      <Filter>debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggercommandexecutor.cpp">
+      <Filter>debugging\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptenginedebugger.cpp">
+      <Filter>debugging\original</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerconsole.cpp">
+      <Filter>debugging\console</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerconsolecommand.cpp">
+      <Filter>debugging\console</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerconsolecommandgroupdata.cpp">
+      <Filter>debugging\console</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerconsolecommandjob.cpp">
+      <Filter>debugging\console</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerconsolecommandmanager.cpp">
+      <Filter>debugging\console</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerconsoleglobalobject.cpp">
+      <Filter>debugging\console</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptdebuggerscriptedconsolecommand.cpp">
+      <Filter>debugging\console</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptenginedebuggerfrontend.cpp">
+      <Filter>debugging\original</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptobjectsnapshot.cpp">
+      <Filter>debugging\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging\qscriptvalueproperty.cpp">
+      <Filter>debugging\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="JSDebugging\JSScriptDebugger.cpp">
+      <Filter>JSDebugging</Filter>
+    </ClCompile>
+    <ClCompile Include="JSDebugging\JSScriptDebuggerFrontendInterface.cpp">
+      <Filter>JSDebugging</Filter>
+    </ClCompile>
+    <ClCompile Include="JSDebugging\JSScriptDebuggerBackend.cpp">
+      <Filter>JSDebugging</Filter>
+    </ClCompile>
+    <ClCompile Include="JSDebugging\JSScriptDebuggerFrontend.cpp">
+      <Filter>JSDebugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_V8ScriptDebuggerFrontend.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_V8ScriptDebuggerFrontend.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_V8ScriptDebuggerFrontend.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_V8ScriptDebuggerFrontend.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscripterrorlogwidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscripterrorlogwidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscripterrorlogwidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscripterrorlogwidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscripterrorlogwidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscripterrorlogwidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscripterrorlogwidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscripterrorlogwidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptenginedebugger_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptenginedebugger_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptenginedebugger_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptenginedebugger_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptenginedebugger.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptenginedebugger.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptenginedebugger.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptenginedebugger.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptedit_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptedit_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptedit_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptedit_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebugoutputwidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebugoutputwidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebugoutputwidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebugoutputwidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebugoutputwidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebugoutputwidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebugoutputwidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebugoutputwidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebugger_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebugger_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebugger_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebugger_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerstackwidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerstackwidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerstackwidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerstackwidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerstackwidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerstackwidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerstackwidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerstackwidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerscriptswidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerscriptswidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerscriptswidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerscriptswidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerscriptswidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerscriptswidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerscriptswidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerscriptswidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerscriptsmodel_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerscriptsmodel_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerscriptsmodel_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerscriptsmodel_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerlocalswidget_p_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerlocalswidget_p_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerlocalswidget_p_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerlocalswidget_p_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerlocalswidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerlocalswidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerlocalswidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerlocalswidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerlocalswidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerlocalswidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerlocalswidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerlocalswidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerlocalsmodel_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerlocalsmodel_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerlocalsmodel_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerlocalsmodel_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggercustomviewinterface.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggercustomviewinterface.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggercustomviewinterface.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggercustomviewinterface.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerconsolewidget_p_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerconsolewidget_p_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerconsolewidget_p_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerconsolewidget_p_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerconsolewidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerconsolewidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerconsolewidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerconsolewidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerconsolewidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerconsolewidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerconsolewidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerconsolewidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggerconsoleglobalobject_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggerconsoleglobalobject_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggerconsoleglobalobject_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggerconsoleglobalobject_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggercodewidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggercodewidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggercodewidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggercodewidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggercodewidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggercodewidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggercodewidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggercodewidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggercodeview_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggercodeview_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggercodeview_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggercodeview_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggercodeviewinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggercodeviewinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggercodeviewinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggercodeviewinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggercodefinderwidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggercodefinderwidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggercodefinderwidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggercodefinderwidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptdebuggercodefinderwidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptdebuggercodefinderwidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptdebuggercodefinderwidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptdebuggercodefinderwidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptcompletiontask_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptcompletiontask_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptcompletiontask_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptcompletiontask_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptcompletiontaskinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptcompletiontaskinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptcompletiontaskinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptcompletiontaskinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptbreakpointswidget_p_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptbreakpointswidget_p_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptbreakpointswidget_p_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptbreakpointswidget_p_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptbreakpointswidget_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptbreakpointswidget_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptbreakpointswidget_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptbreakpointswidget_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptbreakpointswidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptbreakpointswidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptbreakpointswidgetinterface_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptbreakpointswidgetinterface_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_qscriptbreakpointsmodel_p.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_qscriptbreakpointsmodel_p.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_qscriptbreakpointsmodel_p.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_qscriptbreakpointsmodel_p.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_JSScriptDebuggerFrontend.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_JSScriptDebuggerFrontend.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_JSScriptDebuggerFrontend.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_JSScriptDebuggerFrontend.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_JSScriptDebuggerBackend.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_JSScriptDebuggerBackend.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_JSScriptDebuggerBackend.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_JSScriptDebuggerBackend.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_JSScriptDebugger.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_JSScriptDebugger.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_JSScriptDebugger.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_JSScriptDebugger.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="$(PlatformName)\GeneratedFiles\qrc_scripttools_debugging.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debugging\scripttools_debugging.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptbreakpointsmodel_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptbreakpointswidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptbreakpointswidget_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptbreakpointswidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptcompletiontask_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptcompletiontaskinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodefinderwidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodefinderwidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodeview_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodeviewinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodewidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodewidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolewidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolewidget_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolewidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerlocalsmodel_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerlocalswidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerlocalswidget_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerlocalswidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerscriptsmodel_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerscriptswidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerscriptswidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerstackwidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerstackwidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebugoutputwidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebugoutputwidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptedit_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscripterrorlogwidget_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscripterrorlogwidgetinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="V8Debugging\V8ScriptDebuggerFrontend.h">
+      <Filter>V8Debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebugger_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptenginedebugger_p.h">
+      <Filter>debugging\original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptenginedebugger.h">
+      <Filter>debugging\original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsoleglobalobject_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="JSDebugging\JSScriptDebugger.h">
+      <Filter>JSDebugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="JSDebugging\JSScriptDebuggerFrontendInterface.h">
+      <Filter>JSDebugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="JSDebugging\JSScriptDebuggerBackend.h">
+      <Filter>JSDebugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="JSDebugging\JSScriptDebuggerFrontend.h">
+      <Filter>JSDebugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercustomviewinterface.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="neoscripttools_global.h" />
+    <CustomBuild Include="debugging\images\breakpoint.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\breakpoint.svg">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\delete.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\d_breakpoint.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\d_breakpoint.svg">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\d_interrupt.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\d_play.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\find.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\interrupt.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\location.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\location.svg">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\closetab.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\editcut.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\editredo.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\editundo.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\exportpdf.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\filenew.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\fileopen.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\fileprint.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\filesave.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\next.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\plus.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\previous.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\textbold.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\textcenter.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\textitalic.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\textjustify.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\textleft.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\textright.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\textunder.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\zoomin.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\mac\zoomout.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\new.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\play.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\reload.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\return.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\runtocursor.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\runtonewscript.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\stepinto.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\stepout.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\stepover.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\closetab.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\editcut.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\editredo.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\editundo.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\exportpdf.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\filenew.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\fileopen.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\fileprint.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\filesave.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\next.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\plus.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\previous.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\textbold.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\textcenter.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\textitalic.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\textjustify.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\textleft.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\textright.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\textunder.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\zoomin.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\win\zoomout.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\images\wrap.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\advance.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\backtrace.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\break.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\clear.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\complete.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\condition.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\continue.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\delete.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\disable.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\down.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\enable.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\eval.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\finish.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\frame.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\help.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\ignore.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\info.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\interrupt.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\list.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\next.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\print.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\return.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\step.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\tbreak.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\scripts\commands\up.qs">
+      <Filter>Resource Files\scripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptbreakpointdata_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptbreakpointswidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptcompletionproviderinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptcompletiontaskinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodefinderwidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodeviewinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodewidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercommandschedulerfrontend_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercommandschedulerinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercommandschedulerjob_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercommandschedulerjob_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercommand_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolehistorianinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolewidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercontextinfo_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggereventhandlerinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerevent_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerfrontend_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerfrontend_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerjobschedulerinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerjob_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerjob_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerlocalswidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerobjectsnapshotdelta_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerresponsehandlerinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerresponse_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerscriptswidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerstackmodel_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerstackwidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerstandardwidgetfactory_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggervalueproperty_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggervalue_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerwidgetfactoryinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebugger_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebugoutputwidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscripterrorlogwidgetinterface_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptmessagehandlerinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptscriptdata_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptstdmessagehandler_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptsyntaxhighlighter_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscripttooltipproviderinterface_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerstackwidget_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerscriptswidget_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodewidget_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercodefinderwidget_p_p.h">
+      <Filter>debugging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptenginedebuggerfrontend_p.h">
+      <Filter>debugging\original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolecommandgroupdata_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolecommandjob_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolecommandjob_p_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolecommandmanager_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolecommand_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsolecommand_p_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerscriptedconsolecommand_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerconsole_p.h">
+      <Filter>debugging\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggeragent_p.h">
+      <Filter>debugging\backend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggeragent_p_p.h">
+      <Filter>debugging\backend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerbackend_p.h">
+      <Filter>debugging\backend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggerbackend_p_p.h">
+      <Filter>debugging\backend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptdebuggercommandexecutor_p.h">
+      <Filter>debugging\backend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptobjectsnapshot_p.h">
+      <Filter>debugging\backend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debugging\qscriptvalueproperty_p.h">
+      <Filter>debugging\backend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="V8Debugging\V8DebugAdapter.h">
+      <Filter>V8Debugging</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="Globe">NeoKad.ico</file>
+        <file alias="Add">Add.png</file>
+        <file alias="Del">Del.png</file>
+        <file alias="Minus">Minus.png</file>
+        <file alias="Plus">Plus.png</file>
+        <file alias="Stop">Stop.png</file>
+        <file alias="Reset">Reset.png</file>
+        <file alias="Terminate">Terminate.png</file>
+    </qresource>
+</RCC>

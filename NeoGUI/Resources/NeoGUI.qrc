@@ -1,0 +1,119 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="Icons/Downloads">Icons/downloads.png</file>
+        <file alias="Icons/Advanced">Icons/edit.png</file>
+        <file alias="Icons/Ed2kMule">Icons/emule.png</file>
+        <file alias="Icons/Password">Icons/password.png</file>
+        <file alias="Icons/Search">Icons/search.png</file>
+        <file alias="Icons/BitTorrent">Icons/torrent.png</file>
+        <file alias="Icons/Transfers">Icons/transfer.png</file>
+        <file alias="Icons/Unknown">Icons/unknown.png</file>
+        <file alias="Icons/Upload">Icons/upload.png</file>
+        <file alias="GotoLogo">logo.png</file>
+        <file alias="Icons/CloseSearchRun">Icons/closeActiveSearch.png</file>
+        <file alias="Icons/CloseSearchErr">Icons/closeErrorSearch.png</file>
+        <file alias="Icons/CloseSearch">Icons/closeFinishedSearch.png</file>
+        <file alias="Bars/Bar0">Bars/Bar0.png</file>
+        <file alias="Bars/Bar1">Bars/Bar1.png</file>
+        <file alias="Bars/Bar2">Bars/Bar2.png</file>
+        <file alias="Bars/Bar3">Bars/Bar3.png</file>
+        <file alias="Bars/Bar4">Bars/Bar4.png</file>
+        <file>Icons/Generic/error1.png</file>
+        <file>Icons/Generic/error2.png</file>
+        <file>Icons/Generic/error3.png</file>
+        <file>Icons/Generic/error4.png</file>
+        <file>Icons/Generic/error5.png</file>
+        <file>Icons/Generic/exclamation1.png</file>
+        <file>Icons/Generic/exclamation2.png</file>
+        <file>Icons/Generic/exclamation3.png</file>
+        <file>Icons/Generic/exclamation4.png</file>
+        <file>Icons/Generic/exclamation5.png</file>
+        <file>Icons/Generic/question1.png</file>
+        <file>Icons/Generic/question2.png</file>
+        <file>Icons/Generic/question3.png</file>
+        <file>Icons/Generic/question4.png</file>
+        <file>Icons/Generic/question5.png</file>
+        <file alias="Icons/Shield-Blue">Icons/Generic/shield1.png</file>
+        <file alias="Icons/Shield-Green">Icons/Generic/shield2.png</file>
+        <file alias="Icons/Shield-Yelow">Icons/Generic/shield3.png</file>
+        <file alias="Icons/Shield-Magenta">Icons/Generic/shield4.png</file>
+        <file alias="Icons/Shield-Red">Icons/Generic/shield5.png</file>
+        <file alias="SetupBanner">banner.png</file>
+        <file alias="Icon">Icon.png</file>
+        <file alias="Icons/Multi">Icons/multifile.png</file>
+        <file>AvailBars/Bar0_0.png</file>
+        <file>AvailBars/Bar1_1.png</file>
+        <file>AvailBars/Bar1_2.png</file>
+        <file>AvailBars/Bar1_3.png</file>
+        <file>AvailBars/Bar2_1.png</file>
+        <file>AvailBars/Bar2_2.png</file>
+        <file>AvailBars/Bar2_3.png</file>
+        <file>AvailBars/Bar3_1.png</file>
+        <file>AvailBars/Bar3_2.png</file>
+        <file>AvailBars/Bar3_3.png</file>
+        <file>AvailBars/Bar4_1.png</file>
+        <file>AvailBars/Bar4_2.png</file>
+        <file>AvailBars/Bar4_3.png</file>
+        <file>Icons/Sources/emule.png</file>
+        <file>Icons/Sources/hosters.png</file>
+        <file>Icons/Sources/neo.png</file>
+        <file>Icons/Sources/No.png</file>
+        <file>Icons/Sources/torrent.png</file>
+        <file alias="Icons/Collection">Icons/collection.png</file>
+        <file alias="Icons/Rescan">Icons/scan hdd.png</file>
+        <file alias="Icons/Links">Icons/open magnet.png</file>
+        <file alias="Icons/Files">Icons/open file.png</file>
+        <file alias="Icons/Config">Icons/config.png</file>
+        <file alias="Icons/Cleanup">Icons/cleanup.png</file>
+        <file alias="Icons/Tools">Icons/tools.png</file>
+        <file alias="Icons/Start">Icons/play.png</file>
+        <file alias="Icons/Pause">Icons/pause.png</file>
+        <file alias="Icons/Stop">Icons/stop.png</file>
+        <file alias="Icons/Delete">Icons/delete.png</file>
+        <file alias="Icons/Playback">Icons/playback.png</file>
+        <file alias="Icons/Check">Icons/check.png</file>
+        <file alias="Icons/Statistics">Icons/statistics.png</file>
+        <file alias="Icons/WebTasks">Icons/web.png</file>
+        <file alias="Icons/P2PClients">Icons/p2p.png</file>
+        <file alias="Icons/Download">Icons/download.png</file>
+        <file alias="Icons/Archive">Icons/archive.png</file>
+        <file alias="Icons/Share">Icons/share.png</file>
+        <file alias="Icons/Grabber">Icons/puzzle.png</file>
+        <file alias="Icons/Info">Icons/info.png</file>
+        <file alias="Icons/Servers">Icons/servicesServer.png</file>
+        <file alias="Icons/Captcha">Icons/servicesSecure.png</file>
+        <file alias="Icons/Hosters">Icons/servicesStore.png</file>
+        <file alias="Icons/Searching">Icons/servicesSearch.png</file>
+        <file alias="Icons/Services">Icons/services.png</file>
+        <file alias="Icons/Settings">Icons/settings.png</file>
+        <file alias="Icons/Interface">Icons/interface.png</file>
+        <file alias="Icons/Tabs">Icons/tabs.png</file>
+        <file alias="Icons/Prio">Icons/prio.png</file>
+        <file alias="Icons/Queue">Icons/queue.png</file>
+        <file alias="Icons/List">Icons/list.png</file>
+        <file alias="Icons/MakeMulti">Icons/addfolder.png</file>
+        <file alias="Icons/AddSource">Icons/addsrc.png</file>
+        <file alias="Icons/NeoShare">Icons/kad.png</file>
+        <file alias="Icons/MakeLink">Icons/links.png</file>
+        <file alias="Icons/Hash">Icons/hash.png</file>
+        <file alias="Icons/Refresh">Icons/refresh.png</file>
+        <file alias="Icons/Force">Icons/force.png</file>
+        <file alias="Icons/UpDown">Icons/updown.png</file>
+        <file alias="Icons/Inspect">Icons/inspect.png</file>
+        <file alias="Icons/RemoveArch">Icons/removearch.png</file>
+        <file alias="Icons/ArchPW">Icons/archpw.png</file>
+        <file alias="Icons/CheckLinks">Icons/testlink.png</file>
+        <file alias="Icons/ResetLinks">Icons/resetlink.png</file>
+        <file alias="Icons/CleanUpLinks">Icons/clearlink.png</file>
+        <file alias="Icons/UploadToHoster">Icons/upto.png</file>
+        <file alias="Icons/Help">Icons/help.png</file>
+        <file alias="Icons/About">Icons/about.png</file>
+        <file alias="Icons/News">Icons/news.png</file>
+        <file alias="Icons/1stStart">Icons/start.png</file>
+        <file alias="Icons/Update">Icons/update.png</file>
+        <file alias="Icons/Exit">Icons/exit.png</file>
+        <file alias="Icons/Bug">Icons/bug.png</file>
+        <file alias="Icons/Plug">Icons/plug.png</file>
+        <file alias="Icons/Globe">Icons/globe.png</file>
+    </qresource>
+</RCC>

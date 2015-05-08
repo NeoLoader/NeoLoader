@@ -1,0 +1,8 @@
+usr/lib
+usr/lib/pkgconfig
+usr/include/ZenLib
+usr/include/ZenLib/HTTP_Client
+usr/include/ZenLib/Format/Html
+usr/include/ZenLib/Format/Http
+usr/share/doc/libzen-dev
+usr/share/doc/libzen-dev/Doc

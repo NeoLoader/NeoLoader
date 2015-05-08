@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StressTest", "StressTest\StressTest.vcxproj", "{FC37B522-8E59-4416-A0BF-E51C2C33122F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udt", "..\win\udt.vcxproj", "{D84D100A-7C21-4CCB-B16E-0FB37137C16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC37B522-8E59-4416-A0BF-E51C2C33122F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC37B522-8E59-4416-A0BF-E51C2C33122F}.Debug|Win32.Build.0 = Debug|Win32
+		{FC37B522-8E59-4416-A0BF-E51C2C33122F}.Release|Win32.ActiveCfg = Release|Win32
+		{FC37B522-8E59-4416-A0BF-E51C2C33122F}.Release|Win32.Build.0 = Release|Win32
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C}.Debug|Win32.Build.0 = Debug|Win32
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C}.Release|Win32.ActiveCfg = Release|Win32
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{780c42c3-4b00-431e-b78c-b321425803e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Icons">
+      <UniqueIdentifier>{f6e88934-0aee-46f8-ad44-71504a1b78af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{6ce574da-c217-4dbd-aaa3-562dcda95857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\OnlineSearch">
+      <UniqueIdentifier>{7132be7a-27c2-4501-bfc0-d46f55894442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{dfe4feac-78a3-4d1d-bda0-e9c36a495ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Bars">
+      <UniqueIdentifier>{2721a03b-c62b-4b6f-9cf2-b75abe03517e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Icons\Generic">
+      <UniqueIdentifier>{06523915-954f-4bc6-a170-671be2daf846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{4810c3cf-9b19-45d9-ad01-4e92a75c6ecd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{b6318222-a9cb-4b3f-845c-641aa40ab5c9}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{f164a2f5-ba58-4859-8cf2-1dd66de3cad8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{4fe37c9c-a9b4-4308-bb65-afd8073a931d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GUI\Crawler">
+      <UniqueIdentifier>{6e97bd26-e917-4542-9ab2-cd4dc55d435d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\FileList">
+      <UniqueIdentifier>{84dc9865-897d-4e72-bc35-b1c7f8deb566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\FileList\FileDetails">
+      <UniqueIdentifier>{2f330497-9889-4e53-bb21-e6f096174b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\TransferList">
+      <UniqueIdentifier>{f197d3f3-83a5-4981-98f0-a103ddbbfa04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Settings">
+      <UniqueIdentifier>{5f56057a-430e-47a2-8ea1-78dc44c4f67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Hosters">
+      <UniqueIdentifier>{d268b9e4-32a3-4cda-a441-a6c38bb2d7a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Hosters\Captcha">
+      <UniqueIdentifier>{a751f8aa-5838-425f-a169-85a5f9573c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Search">
+      <UniqueIdentifier>{769724e4-81e1-4311-99de-73ec9fe8c18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Services">
+      <UniqueIdentifier>{bfb69226-61d8-4c22-b9f6-1aed925b9879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Grabber">
+      <UniqueIdentifier>{98ee9ebe-de73-425b-962f-9e2c570c186c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\qml">
+      <UniqueIdentifier>{cef12c36-4ee1-418f-9942-3606040443bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\AvailBars">
+      <UniqueIdentifier>{b3c85cc2-31ee-413d-86d2-e8409b27d3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Icons\Soruces">
+      <UniqueIdentifier>{8a89505e-566a-47ab-8362-9ceede94ca24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalHeader.cpp" />
+    <ClCompile Include="NeoGUI.cpp" />
+    <ClCompile Include="GUI\StatisticsWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\OnlineSearch\OnlineCompleter.cpp">
+      <Filter>GUI\OnlineSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\OnlineSearch\OnlineFileList.cpp">
+      <Filter>GUI\OnlineSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\LinkDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\IncrementalPlot.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\LogView.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LineEditEx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\PageTreeWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ModernGUI.cpp" />
+    <ClCompile Include="SetupWizard.cpp" />
+    <ClCompile Include="Common\CheckableMessageBox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_WebTaskView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_WebTaskView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_WebTaskView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_WebTaskView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TreeWidgetEx.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TreeWidgetEx.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TreeWidgetEx.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TreeWidgetEx.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TreeViewEx.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TreeViewEx.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TreeViewEx.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TreeViewEx.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TransfersView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TransfersView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TransfersView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TransfersView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TransfersModel.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TransfersModel.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TransfersModel.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TransfersModel.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TrackerView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TrackerView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TrackerView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TrackerView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_StatisticsWindow.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_StatisticsWindow.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_StatisticsWindow.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_StatisticsWindow.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ShareWidget.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ShareWidget.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ShareWidget.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ShareWidget.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SetupWizard.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SetupWizard.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SetupWizard.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SetupWizard.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SettingsWindow.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SettingsWindow.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SettingsWindow.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SettingsWindow.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SettingsView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SettingsView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SettingsView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SettingsView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SearchWindow.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SearchWindow.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SearchWindow.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SearchWindow.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_RatingView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_RatingView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_RatingView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_RatingView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_PropertiesView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_PropertiesView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_PropertiesView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_PropertiesView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ProgressBar.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ProgressBar.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ProgressBar.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ProgressBar.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_PageTreeWidget.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_PageTreeWidget.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_PageTreeWidget.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_PageTreeWidget.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_OnlineFileList.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_OnlineFileList.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_OnlineFileList.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_OnlineFileList.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_OnlineCompleter.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_OnlineCompleter.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_OnlineCompleter.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_OnlineCompleter.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoGUI.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoGUI.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoGUI.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoGUI.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ModernGUI.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ModernGUI.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ModernGUI.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ModernGUI.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_LogView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_LogView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_LogView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_LogView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_LinkDialog.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_LinkDialog.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_LinkDialog.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_LinkDialog.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_LineEditEx.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_LineEditEx.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_LineEditEx.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_LineEditEx.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_IncrementalPlot.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_IncrementalPlot.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_IncrementalPlot.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_IncrementalPlot.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HosterView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HosterView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HosterView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HosterView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_GrabberWindow.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_GrabberWindow.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_GrabberWindow.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_GrabberWindow.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FitnessBars.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FitnessBars.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FitnessBars.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FitnessBars.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileSummary.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileSummary.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileSummary.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileSummary.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileListWidget.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileListWidget.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileListWidget.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileListWidget.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileListView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileListView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileListView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileListView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileListModel.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileListModel.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileListModel.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileListModel.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_DetailsView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_DetailsView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_DetailsView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_DetailsView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CrawlerWindow.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CrawlerWindow.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CrawlerWindow.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CrawlerWindow.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CrawlerSite.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CrawlerSite.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CrawlerSite.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CrawlerSite.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CrawlerEntry.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CrawlerEntry.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CrawlerEntry.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CrawlerEntry.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CoverView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CoverView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CoverView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CoverView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CheckableMessageBox.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CheckableMessageBox.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CheckableMessageBox.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CheckableMessageBox.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CaptchaDialog.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CaptchaDialog.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CaptchaDialog.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CaptchaDialog.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_AccountView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_AccountView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_AccountView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_AccountView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="$(PlatformName)\GeneratedFiles\qrc_NeoGUI.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ShellSetup.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ShellSetup.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ShellSetup.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ShellSetup.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ShellSetup.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TorrentCreator.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TorrentCreator.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TorrentCreator.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TorrentCreator.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CoverView.cpp">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CrawlerEntry.cpp">
+      <Filter>GUI\Crawler</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CrawlerSite.cpp">
+      <Filter>GUI\Crawler</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CrawlerWindow.cpp">
+      <Filter>GUI\Crawler</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\DetailsView.cpp">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FileListView.cpp">
+      <Filter>GUI\FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FileListWidget.cpp">
+      <Filter>GUI\FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FileSummary.cpp">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ProgressBar.cpp">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RatingView.cpp">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\TrackerView.cpp">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\TransfersModel.cpp">
+      <Filter>GUI\TransferList</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\TransfersView.cpp">
+      <Filter>GUI\TransferList</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\PropertiesView.cpp">
+      <Filter>GUI\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\SettingsView.cpp">
+      <Filter>GUI\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\SettingsWindow.cpp">
+      <Filter>GUI\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ShareWidget.cpp">
+      <Filter>GUI\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\AccountView.cpp">
+      <Filter>GUI\Hosters</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\HosterView.cpp">
+      <Filter>GUI\Hosters</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\TorrentCreator.cpp">
+      <Filter>GUI\FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\NeoSummary.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoSummary.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoSummary.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoSummary.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoSummary.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ServiceSummary.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ServiceSummary.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ServiceSummary.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ServiceSummary.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CaptchaDialog.cpp">
+      <Filter>GUI\Hosters\Captcha</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\P2PServers.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_P2PServers.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_P2PServers.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_P2PServers.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_P2PServers.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\nightcharts.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_PieChart.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_PieChart.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_PieChart.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_PieChart.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\HosterUploader.cpp">
+      <Filter>GUI\Hosters</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HosterUploader.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HosterUploader.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HosterUploader.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HosterUploader.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\SearchWindow.cpp">
+      <Filter>GUI\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ServiceSummary.cpp">
+      <Filter>GUI\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\WebTaskView.cpp">
+      <Filter>GUI\Grabber</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GrabberWindow.cpp">
+      <Filter>GUI\Grabber</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ServicesWidget.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ServicesWidget.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ServicesWidget.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ServicesWidget.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ServicesWidget.cpp">
+      <Filter>GUI\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SettingsWidgets.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SettingsWidgets.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SettingsWidgets.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SettingsWidgets.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\SettingsWidgets.cpp">
+      <Filter>GUI\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SourceCell.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SourceCell.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SourceCell.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SourceCell.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Finder.cpp">
+      <Filter>GUI\FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Finder.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Finder.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Finder.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Finder.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\HostingView.cpp">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HostingView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HostingView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HostingView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HostingView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FileListModel.cpp">
+      <Filter>GUI\FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Connector.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Connector.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Connector.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Connector.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.cpp" />
+    <ClCompile Include="Common\Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Dialog.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Dialog.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Dialog.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Dialog.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Dialog.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="NeoGUI.h" />
+    <CustomBuild Include="GUI\StatisticsWindow.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\NeoGUI.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\OnlineSearch\OnlineFileList.h">
+      <Filter>GUI\OnlineSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\OnlineSearch\OnlineCompleter.h">
+      <Filter>GUI\OnlineSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\LinkDialog.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\TreeWidgetEx.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\FitnessBars.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\IncrementalPlot.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\LogView.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\LineEditEx.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\PageTreeWidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ModernGUI.h" />
+    <CustomBuild Include="Common\TreeViewEx.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SetupWizard.h" />
+    <CustomBuild Include="Common\CheckableMessageBox.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GlobalHeader.h" />
+    <CustomBuild Include="neogui_global.h" />
+    <CustomBuild Include="Resources\banner.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icon.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\logo.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\add.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\archivedFiles.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\cancel.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\captcha.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\closeActiveSearch.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\closeErrorSearch.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\closeFinishedSearch.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\connection.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\downloads.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\downloadStube.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\edit.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\emule.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\error.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\general.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\getLink.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\grabber.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\hosters.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\ok.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\openWebsite.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\password.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\pauseDownload.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\player.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\search.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\settings.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\sharedFiles.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\startDownload.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\stopDownload.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\torrent.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\transfer.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\trayInfo.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\unknown.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\upload.png">
+      <Filter>Resource Files\Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\error1.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\error2.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\error3.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\error4.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\error5.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\exclamation1.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\exclamation2.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\exclamation3.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\exclamation4.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\exclamation5.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\question1.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\question2.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\question3.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\question4.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\question5.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\shield1.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\shield2.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\shield3.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\shield4.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icons\Generic\shield5.png">
+      <Filter>Resource Files\Icons\Generic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Bars\Bar0.png">
+      <Filter>Resource Files\Bars</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Bars\Bar1.png">
+      <Filter>Resource Files\Bars</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Bars\Bar2.png">
+      <Filter>Resource Files\Bars</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Bars\Bar3.png">
+      <Filter>Resource Files\Bars</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Bars\Bar4.png">
+      <Filter>Resource Files\Bars</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NeoGUI_de.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\MultiLineInput.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\ShellSetup.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\CoverView.h">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\CrawlerEntry.h">
+      <Filter>GUI\Crawler</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\CrawlerSite.h">
+      <Filter>GUI\Crawler</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\CrawlerWindow.h">
+      <Filter>GUI\Crawler</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\DetailsView.h">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\FileListView.h">
+      <Filter>GUI\FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\FileListWidget.h">
+      <Filter>GUI\FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\FileSummary.h">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ProgressBar.h">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\RatingView.h">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\TrackerView.h">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\TransfersModel.h">
+      <Filter>GUI\TransferList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\TransfersView.h">
+      <Filter>GUI\TransferList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\PropertiesView.h">
+      <Filter>GUI\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\SettingsView.h">
+      <Filter>GUI\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\SettingsWindow.h">
+      <Filter>GUI\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ShareWidget.h">
+      <Filter>GUI\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\AccountView.h">
+      <Filter>GUI\Hosters</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\HosterView.h">
+      <Filter>GUI\Hosters</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\TorrentCreator.h">
+      <Filter>GUI\FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\NeoSummary.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\CaptchaDialog.h">
+      <Filter>GUI\Hosters\Captcha</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\P2PServers.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\PieChart.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\HosterUploader.h">
+      <Filter>GUI\Hosters</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\SearchWindow.h">
+      <Filter>GUI\Search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ServiceSummary.h">
+      <Filter>GUI\Services</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\WebTaskView.h">
+      <Filter>GUI\Grabber</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\GrabberWindow.h">
+      <Filter>GUI\Grabber</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ServicesWidget.h">
+      <Filter>GUI\Services</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\SettingsWidgets.h">
+      <Filter>GUI\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\SourceCell.h">
+      <Filter>GUI\FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Finder.h">
+      <Filter>GUI\FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\HostingView.h">
+      <Filter>GUI\FileList\FileDetails</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\FileListModel.h">
+      <Filter>GUI\FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Connector.h" />
+    <CustomBuild Include="Win32\GeneratedFiles\Debug\SettingsView.moc">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\Dialog.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NeoGUI_es.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="NeoGUI_it.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="NeoGUI_pl.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="NeoGUI_nl.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="NeoGUI_zh_tw.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="NeoGUI_zh.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\nightcharts.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GroupBoxEx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icons\multifile.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar0_0.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar1_1.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar1_2.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar1_3.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar2_1.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar2_2.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar2_3.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar3_1.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar3_2.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar3_3.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar4_1.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar4_2.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\AvailBars\Bar4_3.png">
+      <Filter>Resource Files\AvailBars</Filter>
+    </Image>
+    <Image Include="Resources\Icons\Sources\emule.png">
+      <Filter>Resource Files\Icons\Soruces</Filter>
+    </Image>
+    <Image Include="Resources\Icons\Sources\hosters.png">
+      <Filter>Resource Files\Icons\Soruces</Filter>
+    </Image>
+    <Image Include="Resources\Icons\Sources\neo.png">
+      <Filter>Resource Files\Icons\Soruces</Filter>
+    </Image>
+    <Image Include="Resources\Icons\Sources\No.png">
+      <Filter>Resource Files\Icons\Soruces</Filter>
+    </Image>
+    <Image Include="Resources\Icons\Sources\torrent.png">
+      <Filter>Resource Files\Icons\Soruces</Filter>
+    </Image>
+    <Image Include="Resources\Icons\collection.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Dateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Dateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Dateien">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug_Win32">
+      <UniqueIdentifier>{b2610279-1462-47c6-b1d4-e7a8640a8c2e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release_Win32">
+      <UniqueIdentifier>{b1a16a63-be39-425f-bf87-1353996b4a2f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Template_Win32">
+      <UniqueIdentifier>{4f70f518-660b-4fcc-8ba8-d678edc36b54}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug_x64">
+      <UniqueIdentifier>{eff9de01-969a-4319-ba90-229fe66c4fd7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release_x64">
+      <UniqueIdentifier>{1b99044c-dcce-44dd-bc40-b7ea980df15b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Template_x64">
+      <UniqueIdentifier>{9b8654a4-ac47-46e0-847f-bf04b3d90af6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\json_scanner.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\parser.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\parserrunnable.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qobjecthelper.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\serializer.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\serializerrunnable.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\json_parser.cc" />
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_serializerrunnable.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_serializerrunnable.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_serializerrunnable.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_serializerrunnable.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_serializerrunnable.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_serializerrunnable.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_parserrunnable.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_parserrunnable.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_parserrunnable.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_parserrunnable.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_parserrunnable.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_parserrunnable.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\src\parserrunnable.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\serializerrunnable.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\json_parser.hh" />
+    <CustomBuild Include="..\src\json_parser.yy" />
+    <CustomBuild Include="..\src\location.hh" />
+    <CustomBuild Include="..\src\position.hh" />
+    <CustomBuild Include="..\src\stack.hh" />
+    <CustomBuild Include="..\src\json_scanner.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\parser.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\parser_p.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qjson_debug.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qjson_export.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qobjecthelper.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\serializer.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,420 @@
+Version 0.4.30, 2014-11-09
+--------------
++ New MemoryUtils.h functions for SSE2 memcpy
++ Ztring::From_Unicode(const wchar_t S)
++ Removed Win9X support
++ CMake: scripts improvements, thanks to Ivan Romanov
++ Mac: EOL definitely moved from \r to \n
+x int128: was not compiling on Cygwin
+x Windows: file open in append mode has shared read/write
+
+Version 0.4.29, 2013-05-13
+--------------
++ Ztring: Adding some Date_From_Seconds_* methods
+x Ztring: Ztring_NoZero option was not correctly implemented
+x File: Write only is not possible with ios_base::out (file is truncated) on Linux
+x Dir: Include_Dirs only was not working
+x File: accepts Windows "\\?\" magic value
+x Thread: Is* methods were not handling all cases
+
+Version 0.4.28, 2012-08-06
+--------------
++ Removing _T() in order to be compatible with LLVM compiler
+x Ztring: UTF-16 conversion routines crash if the provided string size is odd.
+x GNU: forcing stdc++ at link
+
+Version 0.4.27, 2012-05-22
+--------------
++ Better support of machines lacking of std::basic_stream
+x License text corrections
+
+Version 0.4.26, 2012-04-09
+--------------
++ Better support of machines lacking of std::stringstream
++ Better support of machines requesting explicit stdc++ library link option (e.g. some ARM embedded devices)
+
+Version 0.4.25, 2012-03-13
+--------------
++ Fast bitstream parser
++ Removing Win9X detection on 64-bit CPU
++ Ztring: integer to text conversion with radix=2
++ Updated Linux compilation scripts
+
+Version 0.4.24, 2012-01-24
+--------------
++ Conversion from ctime style date to ISO date
++ GNU: more generic test of size_t as a long (e.g. for s390)
+x Read of text arrays of data was not well done if separator is bigger than 1 character
+x UTF-8 to UCS4 conversion was buggy with 4-byte characters
+x LittleEndian2float80() was buggy
+x Removing TinyXml and Base64 from the package
+
+Version 0.4.23, 2011-11-10
+--------------
++ Loading of CSV or any 2-dimensional array is carriage return mode insensitive
++ Ztring: ISO_8859_2 support
++ File: Truncate method
+x Ztring: UTF-8 load/save using generic code instead of Windows functions (they don't work for all Unicode codes)
+x File: Crash with some unordered API calls
+x FileName: Name::Get() wrong behavior in some cases
+
+Version 0.4.22, 2011-09-23
+--------------
++ File size retrieval is dynamic = support of growing files (Windows)
+x #3412495, Ztring: To_UTF8() was working wrong, corrected thanks to Andrew Jang
+
+Version 0.4.21, 2011-08-16
+--------------
++ File size retrieval is faster (Windows)
+x #3157308, Ztring::Assign_FromFile(): Memory leak
+
+Version 0.4.20, 2011-06-15
+--------------
++ TinyXml updated
++ float16 (on disk) support
+
+Version 0.4.19, 2011-03-19
+--------------
++ Ztring: more compatibility with uCLibC
+x BitStream_LE: wrong result if buffer underrun
+
+Version 0.4.18, 2011-03-03
+--------------
++ HTTP helpers in Unicode version
+x BitStream Little Endian: count of remaining bits was wrong
+x ZtringList and ZtringListList :: Read(): do not remove pending delimiters
+x File Open status: error with Windows return value
+
+Version 0.4.17, 2010-12-16
+--------------
++ uClibc compatibility, thanks to Metin KAYA <metin@EnderUNIX.org>
++ BitStream: Skip methods improvements
+
+Version 0.4.16, 2010-10-24
+-------------
++ BitStream: Peek3()
+x Decimal point issues with some specific compilers/OS
+x ZtringList: issues with EOL
+x #3025205, File is not opened if a "?" is in it
+
+Version 0.4.15, 2010-05-14
+-------------
+x Ztring: Solaris compatibility was broken
+x Solaris: pkgtrans packages, with optional default directory as script parameter
+
+Version 0.4.14, 2010-05-02
+-------------
++ Ztring: better compatibility with std::string
++ TinyXml import
+
+Version 0.4.13, 2010-04-16
+-------------
++ MSVC2010 project files update
++ Solaris package creation files update (with relocation)
+
+Version 0.4.12, 2010-03-08
+-------------
++ MSVC2010 project files
++ Solaris package creation files
+
+Version 0.4.11, 2010-02-19
+-------------
++ Ztring: To_int128u()
++ Ztring: ISO_8859_1()
+x File::Open(): no Access_Read_Write (Windows)
+x BigEndian2int128u()
+x Ztring::To_UUID(): wrong transformation text to UUID in some cases
+
+Version 0.4.10, 2010-01-03
+-------------
++ Ztring: From a file
++ Ztring::Duration_From_Milliseconds: handling of negative values
+x UUID: better validation
+x ZtringList: better handling of CSV import
+x File: Write append on Linux/Mac
+x File: No read/write on Linux/Mac
+x Dir: No dir test and creation on Mac/Linux
+x float64_int64s: handling of big integers
+
+Version 0.4.9, 2009-11-13
+-------------
++ File: bug in Open()
+
+Version 0.4.8, 2009-10-30
+-------------
++ Thread: reorganization, better support
+x File: Support of non-seekable files
+x ZtringListList: CSV write with quoted strings was wrong (again)
+
+Version 0.4.7, 2009-10-15
+-------------
++ Better universal binary building (Mac OS X)
++ Linux: Modification date/time (UTC and Local)
+x ZtringListList: CSV write with quoted strings was wrong
+x Ztring: GUID to string was wrong
+x Linux build script were a bit broken
+x File: file existence test was broken
+x FindAndReplace was hanging up if ToFind is empty
+
+Version 0.4.6, 2009-09-25
+-------------
++ Thread with Linux (base)
++ File: ignoring hidden files
++ Ztring: To_CC4, To_UUID
+x ZtringListList: better CSV compatibility
+x File, Open: const input
+x intxToLittleEndian
+x Correcting some warnings
+
+Version 0.4.5, 2009-09-05
+-------------
++ libzen.pc correction
+
+Version 0.4.4, 2009-09-01
+-------------
++ Dir::GetAllFileNames() was listing all dir if filename does not exist
++ Support of more platforms (fmodf)
+
+Version 0.4.3, 2009-07-03
+-------------
++ OpenSolaris support
++ Path separator
++ Ztring: handling of another format of date
++ Ztring: Changed UUID to GUID, Added UUID (in the right order)
++ Mac OS X: Creation of universal and 10.4 compatible binaries option
+
+Version 0.4.2, 2009-04-17
+-------------
++ File: Local modified/created date
+
+Version 0.4.1, 2009-04-03
+-------------
++ Dir: Option for GetAllFileNames (API incompatible change)
+
+Version 0.4.0, 2009-03-20
+-------------
++ Ztring: Radix option for To_xxx() (API incompatible change)
+
+Version 0.3.8, 2009-02-13
+-------------
+x UTF-8 conversion replacement (was buggy with Debian Lenny, why?)
+x Big files seeking on Linux
+x Sometimes memory corruption with Ztring
+
+Version 0.3.7 2009-01-30
+-------------
++ Some additional helpers for Ztring
+x Managing transformation from Unicode to local with unsupported characters
+
+Version 0.3.6 2009-01-19
+-------------
++ HTML protocol basic stuff
++ HTTP protocol helpers
+x Crash in Ztring::Trim()
+x Code cleanup
+
+Version 0.3.5 2008-12-09
+-------------
++ mipsel CPU support
++ Better Linux integration
++ rpm stuff (thanks to oc2pus http://packman.links2linux.org)
++ deb stuff
+x Code cleanup
+
+Version 0.3.4.0 2008-10-17
+---------------
+x some size of returned value problems in Ztring
+x Bug in FileName.cpp
+
+Version 0.3.3.9 2008-09-12
+---------------
++ Sparc compatibility
+x MacOS X wchar_t stuff
+
+Version 0.3.3.8 2008-08-22
+---------------
+x UTF-16 parsing under Linux
+
+Version 0.3.3.7 2008-06-13
+---------------
++ MinGW compatibility
+
+Version 0.3.3.6 2008-05-30
+---------------
++ MSVC2008 project files
+
+Version 0.3.3.5 2008-05-16
+---------------
+x Ztring: Problem with UTF-8 locale
+x xxxBSD compatibility
+
+Version 0.3.3.4 2008-04-26
+---------------
+x #1946749, Ztring: From_UTF16BE - endless loop
+
+Version 0.3.3.3 2008-04-12
+---------------
++ Adding some classes for speed improvement
+
+Version 0.3.3.2 2008-03-28
+---------------
+x On some systems, if a string is not a number, the returned number from string-->number conversion is undetermined
+x Non-unicode version: invalid read with assign()
+
+Version 0.3.3.1 2008-03-14
+---------------
++ Basic support of threads
+
+Version 0.3.3.0 2008-02-29
+---------------
++ Base64 encode/decode
++ File::Created() and File::Modified()
+x Trim() problem
+
+Version 0.3.2.6 2008-02-09
+---------------
+x Was not seeking after EOF
+x Win9X does not support shared reading, do not use it if Win9X
+
+Version 0.3.2.5 2008-02-01
+---------------
++ Linux/MacOS: support of 2GiB+ files
+x File: Re-enabled shared reading
+x Better handling of Floating point to string
+
+Version 0.3.2.4 2008-01-09
+---------------
++ Ztring::From_GUID()
+x small bugfixes
+
+Version 0.3.2.3 2007-12-10
+---------------
+x small bugfixes
+
+Version 0.3.2.2 2007-11-02
+---------------
+x Ztring comparison bug
+x Memory leaks
+
+Version 0.3.2.1 2007-10-07
+---------------
++ BitStream_LE (Little Endian) class
++ OpenFolder_Show method for Windows
++ int128u/s
++ Win9X support does not request Microsoft unicows.lib anymore
+x Win9X support was broken, is back now
+x Several small bug fixes
+
+Version 0.3.2.0 2007-08-17
+---------------
++ WxWidgets is kept out by default
+x Some minor bug corrections
+
+Version 0.3.1.7 2007-07-23
+---------------
+x .c files were not in source code
+
+Version 0.3.1.6 2007-05-14
+---------------
+x SetFilePointerEx() to SetFilePointer() for win98 support
+
+Version 0.3.1.5 2007-04-28
+---------------
++ Ztring::Date_From_Seconds_1601() added
+x Some bugfixes and warning corrections, mainly for 64-bit port
+
+Version 0.3.1.4 2007-02-05
+---------------
+x UTF16 with BOM corrupted handling
+
+Version 0.3.1.3 2006-12-22
+---------------
++ UTF16BE Handling
++ MacIntel adaptation
+
+Version 0.3.1.2 2006-12-07
+---------------
+x Some errors in Ztring
+x BitStream::Peek() corrected
+
+Version 0.3.1.1 2006-11-24
+---------------
+x BitStream : error with some last bits
++ ZtringListList and ZtringList : number of element limit added
+
+Version 0.3.1.0 2006-08-15
+---------------
++ Seconds from 1904 to ISO
+
+Version 0.3.0.2 2006-07-21
+---------------
+x Memory leak in Ztring::From_Local(...), (maybe a wxWidgets problem)
+x Memory leak with some streams methods, using now internal Win32 functions
++ Some return references in Ztring
++ Some dates functions
+
+Version 0.3.0.1 2006-05-03
+---------------
+x Big mistake in From_Local(...), Memory corruption
+
+
+Version 0.3.0.0 2006-04-30
+---------------
+x some Ztring::From_Number returned void
++ From_Date function
++ More utils
+
+Version 0.2.2.0 2005-12-18
+---------------
++ Some more utils
+
+Version 0.2.1.0 2005-10-14
+---------------
++ Preparing cross-platform makefiles for GCC, more testing with MinGW
++ Memory leaks detection in DEBUG mode (with BCC and MSVC only)
+x Ztring::To_intxx : was adding 1 to big integers if Rouded option set
+
+Version 0.2.0.1 2005-05-18
+---------------
+x MS Visual C++ compilation bug
+
+Version 0.2.0.0 2005-03-07
+---------------
+New
++ DevCpp (with MinGW) project
++ GCC project (makefile). Tested with CygWin and Knoppix
++ FindAndReplaced : Ztring_Recursive is off by default
+
+Version 0.1.1.2 2005-01-17
+---------------
+Bug fixes
+- Constructors in ZtringLislistF
+
+Version 0.1.1.1 2005-01-09
+---------------
+Bug fixes
+- minor bugs
+
+Version 0.1.1.0 2004-08-03
+---------------
+Bug fixes
+- Ztring::int32u was not in compiled files
+- Visual C++ 6 adaptation (thanks to Jasper van de Gronde)
+- Visual C++ 7.1 adaptation
+
+Version 0.1.0.0 2004-08-02
+---------------
+New
+- Conf file
+- I don't remember :(
+
+Bug fixes
+-
+
+Version 0.0.2.0 2003-07-25
+---------------
+New
+-
+
+Bug fixes
+-

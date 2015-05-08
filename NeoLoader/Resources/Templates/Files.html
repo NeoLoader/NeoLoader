@@ -1,0 +1,354 @@
+﻿<!-- Frame -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>WebUI</title>
+</head>
+<frameset border="0" frameSpacing="0" cols="180,*" frameBorder="0">
+    <frame name="Toolbox" marginWidth="10" marginHeight="10" src="about:blank" target="_self" scrolling="auto">
+    <frame name="List" marginWidth="0" marginHeight="0" src="/WebUI/Files/List/?{List}" target="_self">
+</frameset>
+<body>
+</body>
+</html>
+<!-- /Frame -->
+<!-- List -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>File List</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <script type="text/javascript" src="/Resources/WndHelper.js"></script>
+    <script type="text/javascript">setInterval("RunUpdate()", 3000);</script>
+</head>
+<body>
+<table border="1" width="90%">
+  <tr>
+    <th width="3%">ID</th>
+    <th width="40%">File Name</th>
+    <th width="5%">Size</th>
+    <th width="10%">Type</th>
+    <th width="15%">Status</th>
+    <th width="20%">Progress</th>
+    <th width="7%">Down/Up</th>
+  </tr>
+  {Files}
+</table>
+</body>
+</html>
+<!-- /List -->
+<!-- Entry -->
+<tr>
+    <td align="right">{ID}</td>
+    <td align="left"><a href="/WebUI/Files/{ID}/Toolbox/" target="Toolbox">{Name}</a></td>
+    <td align="right">{Size}</td>
+    <td class="no_wrap" align="right"><a href="/WebUI/Files/{ID}/Details/">{Type}</a></td>
+    <td class="no_wrap" align="right"><a href="/WebUI/Log/?File={ID}" target="Log" onclick="OpenWindow(this.href, this.target, 'menubar=0,resizable=1,width=640,height=480'); return false;">{Status}</a></td>
+    <td align="center"><img src="/WebUI/Progress.png?ID={ID}" name="Progress"></td>
+    <td class="no_wrap" align="left"><a href="/WebUI/Files/{ID}/Transfers/">{Transfer}</a></td>
+</tr>
+<!-- /Entry -->
+<!-- FileDetails -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>File</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <script type="text/javascript" src="/Resources/WndHelper.js"></script>
+</head>
+<body>
+<b>{Name}</b> ({Size}) 
+{HashList}
+{Details}
+{FileList}
+</body>
+</html>
+<!-- /FileDetails -->
+<!-- HashList -->
+<br>
+<br>
+<table border="1" width="90%">
+  <tr>
+    <th width="10%">Hash</th>
+    <th width="90%">Value</th>
+  </tr>
+  {Hashes}
+</table>
+<!-- /HashList -->
+<!-- FileHash -->
+<tr>
+    <td align="left">{Type}</td>
+    <td class="no_wrap" align="left">{Hash}</td>
+</tr>
+<!-- /FileHash -->
+<!-- TorrentDetails -->
+<br>
+<a href="/Torrent/{UrlName}.torrent?ID={ID}">Download Torrent</a><br>
+<br>
+<table border="1" width="90%">
+  <tr>
+    <th width="60%">Tracker Url</th>
+    <th width="40%">Status</th>
+  </tr>
+  {Trackers}
+</table>
+<br>
+<a href="/WebUI/Files/{ID}/Trackers/" target="Trackers" onclick="OpenWindow(this.href, this.target, 'menubar=0,resizable=1,width=350,height=200'); return false;">Edit Trackers</a><br>
+<br>
+<!-- /TorrentDetails -->
+<!-- Tracker -->
+<tr>
+    <td align="left">{Url}</td>
+    <td class="no_wrap" align="left">{Status}</td>
+</tr>
+<!-- /Tracker -->
+<!-- Trackers -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Trackers</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+</head>
+<body>
+Set Trackers for <b>{Name}</b> ({Size})<br>
+<form method="post" action="">
+<textarea name="Trackers" rows="4" cols="50">{Trackers}</textarea>
+<input id="Submit1" type="submit" value="Submit">
+</form>
+</body>
+</html>
+<!-- /Trackers -->
+<!-- Password -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Password</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+</head>
+<body>
+Set password for <b>{Name}</b> ({Size})<br>
+<form method="get" action="">
+<textarea name="Password" rows="4" cols="50">{Password}</textarea>
+<input id="Submit" type="submit" value="Submit">
+</form>
+</body>
+</html>
+<!-- /Password -->
+<!-- FileList -->
+<br>
+<br>
+<table border="1" width="90%">
+  <tr>
+    <th width="3%">ID</th>
+    <th width="40%">File Name</th>
+    <th width="5%">Size</th>
+    <th width="10%">Type</th>
+    <th width="15%">Status</th>
+    <th width="20%">Progress</th>
+    <th width="7%">Down/Up</th>
+  </tr>
+  {Files}
+</table>
+<!-- /FileList -->
+<!-- FileInfo -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>File</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+</head>
+<body>
+<b>Status:</b><br>{Status}
+</body>
+</html>
+<!-- /FileInfo -->
+<!-- Toolbox -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Toolbox</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <script type="text/javascript" src="/Resources/WndHelper.js"></script>
+</head>
+<body>
+<div id="navi">
+    <iframe src="/WebUI/Files/{ID}/" name="File" width="150" height="50" frameBorder="0"></iframe>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Start" target="File">Start</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Pause" target="File">Pause</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Stop" target="File">Stop</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Remove" target="File">Remove</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Delete" target="File">Delete</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Upload" target="File">Upload</a>
+    <br />
+    <br />
+    <a href="/WebUI/Files/{ID}/Transfers/" target="List">Show Transfers</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/Details/" target="List">Show Details</a>
+    <br />
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=MakeTorrent" target="File">Make Torrent</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=ClearTorrent" target="File">Clear Torrent</a>
+    <br />
+    <!--<a href="/WebUI/Files/{ID}/?Action=UploadTorrent" target="File">Upload Torrent</a>
+    <br />-->
+    <br />
+    <a href="/WebUI/Files/{ID}/Link/" target="Linker" onclick="OpenWindow(this.href, this.target, 'menubar=0,resizable=1,width=450,height=550'); return false;">Make Link</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=CheckLinks" target="File">Check Links</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=CleanupLinks" target="File">Cleanup Links</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=ResetLinks" target="File">Reset Links</a>
+    <br />
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=RehashFile" target="File">Rehash File</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Alias" target="File">Find Alias</a>
+    <br />
+    <br />
+    <a href="/WebUI/Files/{ID}/Password/" target="Password" onclick="OpenWindow(this.href, this.target, 'menubar=0,resizable=1,width=350,height=150'); return false;">Set Password</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=UploadArchive" target="File">Upload Archive</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=RemoveArchive" target="File">Remove Archive</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=ClearArchive" target="File">Clear Archive</a>
+    <br />
+    <br />
+    <a href="/WebUI/Maker/" target="Maker" onclick="OpenWindow(this.href,this.target,'menubar=0,resizable=1,width=450,height=220'); return false;">Make Multi File</a>
+    <br />
+    <br />
+</div>
+</body>
+</html>
+<!-- /Toolbox -->
+<!-- Grabbox -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Toolbox</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+</head>
+<body>
+<div id="Div1">
+    <iframe src="/WebUI/Files/{ID}/" name="File" width="150" height="50" frameBorder="0"></iframe>
+    <br />
+    <a href="/WebUI/Files/{ID}/Transfers/" target="List">Show Transfers</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/Details/" target="List">Show Details</a>
+    <br />
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Grab" target="File">Grab File</a>
+    <br />
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Index" target="File">Find Index</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Alias" target="File">Find Alias</a>
+    <br />
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Start" target="File">Start</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Pause" target="File">Pause</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Stop" target="File">Stop</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Remove" target="File">Remove</a>
+    <br />
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Cleanup" target="File">Cleanup Links</a>
+    <br />
+    <a href="/WebUI/Files/{ID}/?Action=Reset" target="File">Reset Links</a>
+    <br />
+    <br />
+</div>
+</body>
+</html>
+<!-- /Grabbox -->
+<!-- Transfers -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Transfers</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <script type="text/javascript" src="/Resources/WndHelper.js"></script>
+    <script type="text/javascript">setInterval("RunUpdate()", 30000);</script>
+</head>
+<body>
+<table border="1" width="90%">
+  <tr>
+    <th width="40%">Url</th>
+    <th width="10%">Type</th>
+    <th width="20%">Status</th>
+    <th width="20%">Progress</th>
+    <th width="10%">Down/Up</th>
+  </tr>
+  {Transfers}
+</table>
+</body>
+</html>
+<!-- /Transfers -->
+<!-- Transfer -->
+<tr>
+    <td align="left">{Url}</td>
+    <td class="no_wrap" align="right">{Type}</td>
+    <td class="no_wrap" align="right">{Status}</td>
+    <td align="center"><img src="/WebUI/Progress.png?ID={ID}&SubID={SubID}" name="Progress"></td>
+    <td class="no_wrap" align="left">{Transfer}</td>
+</tr>
+<!-- /Transfer -->
+<!-- Link -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Link</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    {Refresh}
+</head>
+<body>
+{Result}
+<br>
+<form method="get" action="">
+	<input type="submit" value="Make Link">
+    Add Info Links: 
+    <select name="Links">
+        <option value="None">None</option>
+        <option value="Torrent">Torrent</option>
+        <option value="Archive">Archive</option>
+	</select>
+    <select name="Encoding">
+        <option value="Plaintext">Plaintext</option>
+        <option value="Compressed">Compressed</option>
+        <option value="Encrypted">Encrypted</option>
+	</select>
+</form>
+</body>
+</html>
+<!-- /Link -->
+<!-- Refresh -->
+<meta http-equiv="refresh" content="1;">
+<!-- /Refresh -->
+<!-- LinkResult -->
+<img src="/WebAPI/QrEncode.png?Data={EncLink}">
+<br>
+<textarea name="Links" rows="4" cols="50">{Link}</textarea>
+<!-- /LinkResult -->
+<!-- LinkWait -->
+<h2>Please Wait</h2>
+<!-- /LinkWait -->

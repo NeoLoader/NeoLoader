@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+Unicode=@ZenLib_Unicode@
+WstringMissing=@ZenLib_wstring_missing@
+Libs_Static=@libdir@/libzen.a -lpthread
+
+Name: libzen
+Version: @PACKAGE_VERSION@
+Description: ZenLib
+Libs: -L@libdir@ -lzen -lpthread -lstdc++
+Cflags: -I${includedir} @ZenLib_CXXFLAGS@

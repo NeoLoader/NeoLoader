@@ -1,0 +1,124 @@
+TODO:
+
+MXF:
+                Sequence->Delay=float64_int64s(DTS_Delay*1000000000);
+
+
+//                 FileNames.Separator_Set(0, __T(","));
+State
+        SubFile_Start();
+		Config->Event_SubFile_Missing(Source);
+MediaInfo_Event_General_SubFile_End_0
+FileSize_Parsed
+Sequence->MI->Info->Demux_CurrentParser->Demux_TotalBytes>=Sequence->MI->Info->Demux_CurrentParser->Buffer_TotalBytes+Sequence->MI->Info->Demux_CurrentParser->Buffer_Size))
+CountOfReferencesToParse
+CountOfReferences_ForReadSize
+FileSize_Compute
+File_IgnoreSequenceFileSize_Get
+Config->Event_SubFile_Missing
+                int64u          Demux_Offset_Frame;
+                int64u          Demux_Offset_DTS;
+SubFile_Start
+***
+            if (Config->ParseSpeed<1.0)
+                Sequence->Resources_Current=Sequence->Resources.size(); //No need to parse all files
+***
+            if (Sequence->Resources_Current<Sequence->Resources.size() && Sequence->Resources[Sequence->Resources_Current].MI)
+                Sequence->Resources[Sequence->Resources_Current].MI->Open_Buffer_Seek(0, 0, (int64u)-1);
+
+
+
+
+//---------------------------------------------------------------------------
+void File__ReferenceFilesHelper::ParseSequence_Init()
+{
+    sequence& Sequence=Sequences[Sequences_Current];
+    
+    //Configuration
+    size_t Resources_Size=Sequence.Resources.size();
+    for (size_t Resources_Pos=0; Resources_Pos<Resources_Size; ++Resources_Pos)
+    {
+        sequence::resource& Resource=Sequence.Resources[Resources_Pos];
+        if (Resource.EditRate)
+        {
+            #if MEDIAINFO_DEMUX
+                if (Resources_Pos+1<Resources_Size)
+                {
+                    sequence::resource& Resource1=Sequence.Resources[Resources_Pos+1];
+                    Resource1.Demux_Offset_DTS=float64_int64s(Resource.Demux_Offset_DTS+(Resource.IgnoreEditsAfter-Resource.IgnoreEditsBefore)/Resource.EditRate*1000000000);
+                    Resource1.Demux_Offset_Frame=Resource.Demux_Offset_Frame+Resource.IgnoreEditsAfter-Resource.IgnoreEditsBefore;
+                }
+            #endif //MEDIAINFO_DEMUX
+        }
+        else
+        {
+            //Data not avalaible, fallback: retrieving it directly for files
+            MediaInfo_Internal MI2;
+            MI2.Option(__T("File_KeepInfo"), __T("1"));
+            Ztring ParseSpeed_Save=MI2.Option(__T("ParseSpeed_Get"), __T("0"));
+            Ztring Demux_Save=MI2.Option(__T("Demux_Get"), __T(""));
+            MI2.Option(__T("ParseSpeed"), __T("0"));
+            MI2.Option(__T("Demux"), Ztring());
+            size_t MiOpenResult=MI2.Open(Resource.AbsoluteFileName);
+            MI2.Option(__T("ParseSpeed"), ParseSpeed_Save); //This is a global value, need to reset it. TODO: local value
+            MI2.Option(__T("Demux"), Demux_Save); //This is a global value, need to reset it. TODO: local value
+            if (MiOpenResult)
+            {
+                #if MEDIAINFO_DEMUX
+                    int64u Duration=MI2.Get(Sequence.StreamKind, 0, __T("Duration")).To_int64u()*1000000;
+                    int64u FrameCount=MI2.Get(Sequence.StreamKind, 0, __T("FrameCount")).To_int64u();
+                    if (Resources_Pos+1<Resources_Size)
+                    {
+                        sequence::resource& Resource1=Sequence.Resources[Resources_Pos+1];
+                        Resource1.Demux_Offset_DTS=Resource.Demux_Offset_DTS+Duration;
+                        Resource1.Demux_Offset_Frame=Resource.Demux_Offset_Frame+FrameCount;
+                    }
+                #endif //MEDIAINFO_DEMUX
+            }
+        }
+
+        Resource.MI=MI_Create();
+        Resource.MI->Config.File_IgnoreFramesBefore=Resource.IgnoreEditsBefore;
+        Resource.MI->Config.File_IgnoreFramesAfter=Resource.IgnoreEditsAfter;
+        Resource.MI->Config.File_IgnoreFramesRate=Resource.EditRate;
+        #if MEDIAINFO_DEMUX
+            Resource.MI->Config.Demux_Offset_Frame=Resource.Demux_Offset_Frame;
+            Resource.MI->Config.Demux_Offset_DTS=Resource.Demux_Offset_DTS;
+        #endif //MEDIAINFO_DEMUX
+    }
+
+    if (Sequence.IsCircular)
+    {
+        MI->Fill(Sequence.StreamKind, Sequence.StreamPos, "Source_Info", "Circular");
+        if (!Config->File_KeepInfo_Get())
+        {
+            Sequence.StreamKind=Stream_Max;
+            Sequence.StreamPos=(size_t)-1;
+        }
+        Sequence.Resources.clear();
+        Sequence.Status.set(File__Analyze::IsFinished);
+
+        return;
+    }
+
+    //Run
+    #if MEDIAINFO_EVENTS
+        SubFile_Start();
+    #endif //MEDIAINFO_EVENTS
+    if (!Sequence.MI->Open(Sequence.FileNames.Read()))
+    {
+        #if MEDIAINFO_EVENTS
+            Config->Event_SubFile_Missing(Sequence.Source);
+        #endif //MEDIAINFO_EVENTS
+        if (Sequence.StreamKind!=Stream_Max)
+            MI->Fill(Sequence.StreamKind, Sequence.StreamPos, "Source_Info", "Missing");
+        if (!Config->File_KeepInfo_Get())
+        {
+            Sequence.StreamKind=Stream_Max;
+            Sequence.StreamPos=(size_t)-1;
+        }
+        Sequence.Status.set(File__Analyze::IsFinished);
+    }
+}
+
+***

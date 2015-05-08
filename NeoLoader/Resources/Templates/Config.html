@@ -1,0 +1,69 @@
+﻿<!-- Config -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Config</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <link rel="stylesheet" href="/Resources/combo.css" type="text/css" />
+    <script type="text/javascript">
+        function Get() {
+            var FileName = document.getElementsByName("FileName")[0].value;
+            if (FileName.length == 0)
+                return;
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    document.getElementsByName("Content")[0].value = xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET", "/Config/" + FileName, true);
+            xmlhttp.send();
+        }
+        function Set() {
+            var FileName = document.getElementsByName("FileName")[0].value;
+            if (FileName.length == 0)
+                return;
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    alert("done");
+                }
+            }
+            xmlhttp.open("POST", "/Config/" + FileName, true);
+            xmlhttp.setRequestHeader("Content-Type", "text/xml");
+            xmlhttp.send(document.getElementsByName("Content")[0].value);
+        }
+    </script>
+</head>
+<body>
+
+    <form method="post" action="" onsubmit="return false;" enctype="application/xml">
+    	
+	<table border="0"><tbody>
+	<tr>
+		<td>
+			<select STYLE="width: 300px" class="select1" id="FileName_select" name="FileName_select" attr="select" onChange="writeValue('FileName');">
+			<option value=""></option>
+			{Files}
+			</select><br><iframe class="iframe1" attr="iframe" src="javascript:void(0);" scrolling="no" frameborder="0"></iframe><br><input STYLE="width: 250px" class="text1" attr="input" id="FileName" name="FileName" type="text">
+			<!-- Please note - The line just above must be on a single line or it frigs with the pixel settings due to arbitrary space that different browsers will throw in if you line-break the codes -->
+			<!-- Be sure to setup a blank.htm page that the iframe points to or this will also cause trouble -->
+		</td>
+		<td width="100%">
+		    <input type="submit" value="Get" onclick="Get();">
+		    <input type="submit" value="Set" onclick="Set();">
+		</td>
+	</tr>
+	</tbody></table>	
+    <textarea name="Content" rows="10" cols="80"></textarea>
+    </form>
+    
+    <script type="text/javascript" src="/Resources/combo.js"></script>
+
+</body>
+</html>
+<!-- /Config -->
+<!-- File -->
+<option value="{File}">{File}</option>
+<!-- /File -->

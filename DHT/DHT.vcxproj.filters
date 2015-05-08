@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="kademlia">
+      <UniqueIdentifier>{348e39ba-e405-4625-b5c4-186ab5bbb7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtorrent">
+      <UniqueIdentifier>{705fe5c5-2675-498c-8a8b-49fb6b2f6a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kademlia\cpp">
+      <UniqueIdentifier>{b2947f8a-5baa-4d12-b024-e6641483ff30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kademlia\hpp">
+      <UniqueIdentifier>{21a8e490-7af7-4aba-8655-5f1358a2ba90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtorrent\cpp">
+      <UniqueIdentifier>{6b424c1f-f524-4179-b6fb-ea4818ef8517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtorrent\hpp">
+      <UniqueIdentifier>{70ed8191-cb06-452c-9e43-fa5370bc6893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{7540112d-0cee-40eb-b14c-d1545a12b626}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{e641e7bc-f05c-4141-b11c-98deb9248826}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{faaadd82-e07b-46b5-bf18-ded6a49dfa88}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{6b1a3f4f-d508-4ba1-816e-e7d923195f73}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="DHT.cpp" />
+    <ClCompile Include="kademlia\find_data.cpp">
+      <Filter>kademlia\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="kademlia\node.cpp">
+      <Filter>kademlia\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="kademlia\node_id.cpp">
+      <Filter>kademlia\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="kademlia\refresh.cpp">
+      <Filter>kademlia\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="kademlia\routing_table.cpp">
+      <Filter>kademlia\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="kademlia\rpc_manager.cpp">
+      <Filter>kademlia\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="kademlia\traversal_algorithm.cpp">
+      <Filter>kademlia\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\bloom_filter.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\entry.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\error_code.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\escape_string.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\random.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\socket_io.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\string_util.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\time.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\utf8.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\ConvertUTF.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\lazy_bdecode.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\sha1.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libtorrent\broadcast_socket.cpp">
+      <Filter>libtorrent\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_DHT.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_DHT.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_DHT.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_DHT.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DHT.h" />
+    <CustomBuild Include="Peer.h" />
+    <CustomBuild Include="dht_global.h" />
+    <CustomBuild Include="DHT_p.h" />
+    <CustomBuild Include="intrusive_ptr.hpp" />
+    <CustomBuild Include="pch.h" />
+    <CustomBuild Include="kademlia\find_data.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\logging.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\msg.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\node.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\node_entry.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\node_id.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\observer.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\refresh.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\routing_table.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\rpc_manager.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kademlia\traversal_algorithm.hpp">
+      <Filter>kademlia\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\address.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\assert.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\bencode.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\bloom_filter.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\broadcast_socket.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\buffer.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\config.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\ConvertUTF.h">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\entry.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\error_code.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\escape_string.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\hasher.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\io.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\lazy_entry.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\max.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\peer_id.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\ptime.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\random.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\session_settings.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\session_status.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\size_type.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\socket.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\socket_io.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\string_util.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\time.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\utf8.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libtorrent\version.hpp">
+      <Filter>libtorrent\hpp</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MuleKad", "MuleKad\MuleKad.vcxproj", "{44D80321-2362-43FC-AB97-3062DBE6DB14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44D80321-2362-43FC-AB97-3062DBE6DB14}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44D80321-2362-43FC-AB97-3062DBE6DB14}.Debug|Win32.Build.0 = Debug|Win32
+		{44D80321-2362-43FC-AB97-3062DBE6DB14}.Release|Win32.ActiveCfg = Release|Win32
+		{44D80321-2362-43FC-AB97-3062DBE6DB14}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+﻿<!-- Frame -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search</title>
+</head>
+<frameset border="0" frameSpacing="" rows="114,*" frameborder="">
+    <frame name="Search" marginWidth="0" marginHeight="0" src="/WebUI/Search/List"  scrolling="no" target="_self">
+    <frame name="Results" marginWidth="10" marginHeight="10" src="/WebUI/Files/?SearchID=0" target="_self" scrolling="auto">
+</frameset>
+<body>
+</body>
+</html>
+<!-- /Frame -->
+<!-- List -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Search - List</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+    <script type="text/javascript" src="/Resources/WndHelper.js"></script>
+</head>
+<body>
+	<div class="contentfield" style="margin-top: 10px;">
+        <form action="/WebUI/Search/" name="Search" method="post", target="Main">
+            <input name="Expression" size="70" value="" id="Expression" type="text"> 
+            <input name="StartSearch" value="Search" type="submit"><br>
+            Type: 
+            <input name="SearchNet" value="NeoKad" type="radio" checked="checked">Neo | 
+            <input name="SearchNet" value="MuleKad" type="radio">eMule | 
+            <input name="SearchNet" value="Torrent" type="radio">Torrents
+        </form>
+		<br>
+			<table border="0"><tbody>
+				<tr>
+			  		<td><h1>Searches:<h1></td>
+				  	{List}
+				  	<td width="10"></td>
+				</tr>
+			</tbody></table>	
+		<br>
+	</div>
+</body>
+</html>
+<!-- /List -->
+<!-- Entry -->
+                    <td width="5"></td>
+				  	<td><a href="/WebUI/Files/?SearchID={ID}" target="Results">"{Expression}" </a>(<a href="/WebUI/Search/?Close={ID}">X</a>)</td>
+<!-- /Entry -->

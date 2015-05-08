@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{fef06bf5-ccec-4a73-8dee-bc677080b8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Protocols">
+      <UniqueIdentifier>{c2a4f7a4-165d-40ce-b253-a24249edd105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Kad">
+      <UniqueIdentifier>{eccbb9b6-0e9c-4278-8303-fc4fa5650ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3560d7f2-2f08-40db-a24d-bd4b633e3afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{3b4260d9-8cfd-4fc0-93c4-be7c11ec0ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kad\KadEngine">
+      <UniqueIdentifier>{f2055ca8-b5e3-49e3-b79e-346825834c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\v8Engine">
+      <UniqueIdentifier>{8d8a4cd2-35c7-4af4-a964-8a70855a3e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Kad\KadRouting">
+      <UniqueIdentifier>{fdd33bac-a7ab-4e1b-8161-c616f1938de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\BandwidthControl">
+      <UniqueIdentifier>{da96b91b-d2a2-4b1c-a7d9-fc7dc415fc17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\ScriptDebugger">
+      <UniqueIdentifier>{e9e1307e-9c6e-4545-b0d3-e47af1c692c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug_Win32">
+      <UniqueIdentifier>{67920c30-d246-4057-901c-2f2868a39a34}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release_Win32">
+      <UniqueIdentifier>{d5100c38-167e-4d49-9b22-a2114c8e171c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Template_Win32">
+      <UniqueIdentifier>{69bd45d2-a7bf-47fe-84e6-b6af60c799b2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug_x64">
+      <UniqueIdentifier>{8f74b025-5070-4ffe-ae12-0c57967bed0f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release_x64">
+      <UniqueIdentifier>{a1fc6488-65be-439d-92bc-c2477afe06e6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Template_x64">
+      <UniqueIdentifier>{6cfd9b5b-6053-427c-a5b4-9241b1d16582}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Common\MT">
+      <UniqueIdentifier>{240083ce-081f-446b-a3ed-46cff2f033e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\Object.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Pointer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Variant.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalHeader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="neokad.cpp" />
+    <ClCompile Include="Networking\SocketSession.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\Protocols\UDTSocketSession.cpp">
+      <Filter>Networking\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadConfig.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\Kademlia.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadID.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadNode.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\LookupManager.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\PayloadIndex.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\RoutingBin.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\RoutingFork.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\RoutingZone.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\UIntX.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\FirewallHandler.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\Protocols\TCPSocketSession.cpp">
+      <Filter>Networking\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\SmartSocket.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RouteGraph.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RouteEdge.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RouteNode.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadTask.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadLookup.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\KadEngine.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\KadScript.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\v8Engine\JSDebug.cpp">
+      <Filter>Common\v8Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\v8Engine\JSEngine.cpp">
+      <Filter>Common\v8Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\v8Engine\JSScript.cpp">
+      <Filter>Common\v8Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\v8Engine\JSVariant.cpp">
+      <Filter>Common\v8Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSKadRoute.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSKademlia.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\v8Engine\JSCryptoKey.cpp">
+      <Filter>Common\v8Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSPayloadIndex.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSKadScript.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\v8Engine\JSDataStore.cpp">
+      <Filter>Common\v8Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSKadLookup.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSBinaryCache.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\FileIO.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSBinaryBlock.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadOperation.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\KadOperator.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\NeoKadGUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\v8Engine\JSBuffer.cpp">
+      <Filter>Common\v8Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\v8Engine\JSHashing.cpp">
+      <Filter>Common\v8Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SQLite.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\LookupWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\IndexWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RoutingWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\SearchList.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\SearchView.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadRouting\FrameRelay.cpp">
+      <Filter>Kad\KadRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadRouting\KadRelay.cpp">
+      <Filter>Kad\KadRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadRouting\KadRoute.cpp">
+      <Filter>Kad\KadRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadRouting\RouteSession.cpp">
+      <Filter>Kad\KadRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadHandler.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\LookupHandler.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadRouting\RoutingHandler.cpp">
+      <Filter>Kad\KadRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\RoutingRoot.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\Protocols\UTPSocketSession.cpp">
+      <Filter>Networking\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\BandwidthControl\BandwidthLimit.cpp">
+      <Filter>Networking\BandwidthControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\BandwidthControl\BandwidthLimiter.cpp">
+      <Filter>Networking\BandwidthControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\BandwidthControl\BandwidthManager.cpp">
+      <Filter>Networking\BandwidthControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\SafeAddress.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadRouting\RouteStats.cpp">
+      <Filter>Kad\KadRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\BandwidthControl\BandwidthCounter.cpp">
+      <Filter>Networking\BandwidthControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\PacketQueue.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSKadNode.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSRouteSession.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\KadScriptDebugger.cpp">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\KadScriptDebuggerFrontend.cpp">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\KadScriptDebuggerBackend.cpp">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SearchView.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SearchView.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_SearchView.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SearchView.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SearchView.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_SearchView.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SearchList.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SearchList.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_SearchList.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SearchList.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SearchList.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_SearchList.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_RoutingWidget.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_RoutingWidget.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_RoutingWidget.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_RoutingWidget.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_RoutingWidget.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_RoutingWidget.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_RouteGraph.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_RouteGraph.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_RouteGraph.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_RouteGraph.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_RouteGraph.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_RouteGraph.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoKadGUI.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoKadGUI.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoKadGUI.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoKadGUI.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoKadGUI.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoKadGUI.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_LookupWidget.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_LookupWidget.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_LookupWidget.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_LookupWidget.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_LookupWidget.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_LookupWidget.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_KadScriptDebuggerFrontend.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_KadScriptDebuggerFrontend.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_KadScriptDebuggerFrontend.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_KadScriptDebuggerFrontend.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_KadScriptDebuggerFrontend.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_KadScriptDebuggerFrontend.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_KadScriptDebuggerBackend.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_KadScriptDebuggerBackend.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_KadScriptDebuggerBackend.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_KadScriptDebuggerBackend.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_KadScriptDebuggerBackend.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_KadScriptDebuggerBackend.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_KadScriptDebugger.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_KadScriptDebugger.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_KadScriptDebugger.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_KadScriptDebugger.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_KadScriptDebugger.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_KadScriptDebugger.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_IndexWidget.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_IndexWidget.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_IndexWidget.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_IndexWidget.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_IndexWidget.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_IndexWidget.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoKad.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoKad.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoKad.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoKad.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoKad.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoKad.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="$(PlatformName)\GeneratedFiles\qrc_NeoKad.cpp">
+      <Filter>Generierte Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\KadScriptWidget.cpp">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_KadScriptWidget.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_KadScriptWidget.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_KadScriptWidget.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_KadScriptWidget.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_KadScriptWidget.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_KadScriptWidget.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\KadDebugging.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\LookupHistory.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSKadRequest.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Crypto.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadEngine\JSKadID.cpp">
+      <Filter>Kad\KadEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MT\Event.cpp">
+      <Filter>Common\MT</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MT\Mutex.cpp">
+      <Filter>Common\MT</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MT\Thread.cpp">
+      <Filter>Common\MT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="neokad.h" />
+    <CustomBuild Include="GUI\RouteGraph.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\NeoKadGUI.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\LookupWidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\IndexWidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\RoutingWidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\SearchList.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\SearchView.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\NeoKad.qrc">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\KadScriptDebugger.h">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\KadScriptDebuggerFrontend.h">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\KadScriptDebuggerBackend.h">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GlobalHeader.h" />
+    <CustomBuild Include="Networking\PacketQueue.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\SafeAddress.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\SmartSocket.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\SocketSession.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\Protocols\TCPSocketSession.h">
+      <Filter>Networking\Protocols</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\Protocols\UDTSocketSession.h">
+      <Filter>Networking\Protocols</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\Protocols\UTPSocketSession.h">
+      <Filter>Networking\Protocols</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\BandwidthControl\BandwidthCounter.h">
+      <Filter>Networking\BandwidthControl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\BandwidthControl\BandwidthLimit.h">
+      <Filter>Networking\BandwidthControl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\BandwidthControl\BandwidthLimiter.h">
+      <Filter>Networking\BandwidthControl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\BandwidthControl\BandwidthManager.h">
+      <Filter>Networking\BandwidthControl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Add.png">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Del.png">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\NeoKad.ico">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\FirewallHandler.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadConfig.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\Kademlia.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadHeader.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadID.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadNode.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadOperation.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadHandler.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadTask.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadLookup.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\LookupManager.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\NodeAddress.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\PayloadIndex.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\RoutingBin.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\RoutingFork.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\RoutingRoot.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\RoutingZone.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\UIntX.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSBinaryBlock.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSBinaryCache.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSKademlia.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSKadLookup.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSKadNode.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSKadRoute.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSKadScript.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSRouteSession.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\JSPayloadIndex.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\KadEngine.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\KadOperator.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadEngine\KadScript.h">
+      <Filter>Kad\KadEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadRouting\FrameRelay.h">
+      <Filter>Kad\KadRouting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadRouting\KadRelay.h">
+      <Filter>Kad\KadRouting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadRouting\KadRoute.h">
+      <Filter>Kad\KadRouting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadRouting\RouteSession.h">
+      <Filter>Kad\KadRouting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KadRouting\RouteStats.h">
+      <Filter>Kad\KadRouting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\dirent.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\FileIO.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\Object.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\Pointer.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\SQLite.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\Variant.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSBuffer.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSDataStore.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSDebug.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSEngine.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSCryptoKey.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSHashing.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSScript.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSTerminator.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\v8Engine\JSVariant.h">
+      <Filter>Common\v8Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\RouteEdge.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\RouteNode.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NeoKad_de.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\KadScriptWidget.h">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\NeoKad.rc">
+      <Filter>Resource Dateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus.png">
+      <Filter>Resource Dateien</Filter>
+    </None>
+    <None Include="Resources\Plus.png">
+      <Filter>Resource Dateien</Filter>
+    </None>
+    <None Include="Resources\Stop.png">
+      <Filter>Resource Dateien</Filter>
+    </None>
+    <None Include="Resources\Terminate.png">
+      <Filter>Resource Dateien</Filter>
+    </None>
+    <None Include="Resources\Reset.png">
+      <Filter>Resource Dateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kad\KadEngine\KadDebugging.h">
+      <Filter>Kad\KadEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Kad\LookupHistory.h">
+      <Filter>Kad</Filter>
+    </ClInclude>
+    <ClInclude Include="Kad\KadEngine\JSKadRequest.h">
+      <Filter>Kad\KadEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Crypto.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Kad\KadEngine\JSKadID.h">
+      <Filter>Kad\KadEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MT\Event.h">
+      <Filter>Common\MT</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MT\Mutex.h">
+      <Filter>Common\MT</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MT\Thread.h">
+      <Filter>Common\MT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

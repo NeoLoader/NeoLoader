@@ -1,0 +1,28 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Enter Captcha</title>
+    <link rel="stylesheet" href="/Resources/style.css" type="text/css" />
+</head>
+<body>
+    <br>
+    <form method="post" action="" enctype="application/x-www-form-urlencoded">
+    <input id="ID" type="hidden" name="ID"  value="{ID}">
+    <input type="text" name="Solution"  value="" size="20">
+    <input id="Submit" type="submit" value="Submit" disabled>
+    </form>
+    <script type="text/javascript">
+        if (document.getElementById("ID").value != "") {
+            document.getElementById("Submit").disabled = false;
+
+            Captcha = document.createElement("img");
+            Captcha.src = "/Solver/?Image=" + encodeURIComponent(document.getElementById("ID").value);
+            document.body.insertBefore(Captcha, document.body.firstChild);
+        }
+        else {
+            setTimeout("location.href = '/Solver/';", 3000);
+        }
+    </script>
+</body>
+</html>

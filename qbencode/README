@@ -1,0 +1,24 @@
+qtbencode - Bencode serialization library for Qt
+Copyright 2011 Janne Kulmala <janne.t.kulmala@iki.fi>
+
+Program code is licensed with GNU LGPL 2.1. See COPYING.LGPL file.
+
+-----
+
+This library is a type safe implementation of bencode (de)serialization 
+for the Qt framework. C++ template system is used to reduce the amount 
+of code required to manipulate data structures during conversion and 
+thus makes it less error-prone and more readable. Supported Qt types are 
+QByteArray, QString, QList, QMap and QPair. The encoding is the same as 
+used in the official BitTorrent protocol, but it is extended to include 
+UTF-8 encoded strings and boolean values. Strings in the official bencode
+are represented using QByteArray and UTF-8 encoded strings as QString.
+
+Why bencode?
+
+While less efficient than a pure binary encoding, bencoding is simple 
+and (because numbers are encoded in decimal notation) is unaffected by 
+endianness, which is important for a cross-platform application like 
+BitTorrent. It is also fairly flexible, as long as applications ignore 
+unexpected dictionary keys, so that new ones can be added without 
+creating incompatibilities. (http://en.wikipedia.org/wiki/Bencode)

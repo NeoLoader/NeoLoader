@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Kad">
+      <UniqueIdentifier>{9b55bcc0-2166-4380-a23a-3b14dc7e1ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kad\kademlia">
+      <UniqueIdentifier>{74a33b2f-b8c5-43fc-adea-1991b59ca4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kad\net">
+      <UniqueIdentifier>{b45abd33-7a7e-435d-923e-61a9fcf7c31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kad\routing">
+      <UniqueIdentifier>{b8bd8ebb-b5e6-4e0b-98d5-3a38c5322c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kad\utils">
+      <UniqueIdentifier>{63f8c7ed-6c6c-4a45-8736-5b8196d2560d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug_Win32">
+      <UniqueIdentifier>{9d718742-2880-4d71-89aa-f070d58c10c5}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release_Win32">
+      <UniqueIdentifier>{d6aa9717-48d9-4c7d-b85e-1f3fd9ad71e8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Template_Win32">
+      <UniqueIdentifier>{7930b4c8-f05e-41f4-911a-b98580a2e8a7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug_x64">
+      <UniqueIdentifier>{ea4cc446-6a84-4b25-862c-b4417aa0d73f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release_x64">
+      <UniqueIdentifier>{be12563f-4bd1-45ba-8d65-408f6351c22f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Template_x64">
+      <UniqueIdentifier>{af3db647-cd7b-43fb-ad6e-fdf3a38b010b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MuleKad.rc">
+      <Filter>Resource Dateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Kad\FileTags.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KadHandler.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KeywordPublisher.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\Packet.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\Tag.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\UDPSocket.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\kademlia\Entry.cpp">
+      <Filter>Kad\kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\kademlia\Indexed.cpp">
+      <Filter>Kad\kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\kademlia\Kademlia.cpp">
+      <Filter>Kad\kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\kademlia\Prefs.cpp">
+      <Filter>Kad\kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\kademlia\Search.cpp">
+      <Filter>Kad\kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\kademlia\SearchManager.cpp">
+      <Filter>Kad\kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\kademlia\UDPFirewallTester.cpp">
+      <Filter>Kad\kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\net\KademliaUDPListener.cpp">
+      <Filter>Kad\net</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\net\PacketTracking.cpp">
+      <Filter>Kad\net</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\routing\Contact.cpp">
+      <Filter>Kad\routing</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\routing\RoutingBin.cpp">
+      <Filter>Kad\routing</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\routing\RoutingZone.cpp">
+      <Filter>Kad\routing</Filter>
+    </ClCompile>
+    <ClCompile Include="KAD\utils\UInt128.cpp">
+      <Filter>Kad\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalHeader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MuleKad.cpp" />
+    <ClCompile Include="KadGUI.cpp" />
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_KadHandler.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_KadHandler.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_KadHandler.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_KadHandler.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_KadHandler.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_KadHandler.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_KadGUI.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_KadGUI.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_KadGUI.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_KadGUI.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_KadGUI.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_KadGUI.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MuleKad.cpp">
+      <Filter>Generierte Dateien\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MuleKad.cpp">
+      <Filter>Generierte Dateien\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_MuleKad.cpp">
+      <Filter>Generierte Dateien\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MuleKad.cpp">
+      <Filter>Generierte Dateien\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MuleKad.cpp">
+      <Filter>Generierte Dateien\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_MuleKad.cpp">
+      <Filter>Generierte Dateien\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="$(PlatformName)\GeneratedFiles\qrc_MuleKad.cpp">
+      <Filter>Generierte Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Kad\KeywordHelpers.cpp">
+      <Filter>Kad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MuleKad.h" />
+    <CustomBuild Include="KadGUI.h" />
+    <CustomBuild Include="Kad\KadHandler.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GlobalHeader.h" />
+    <CustomBuild Include="KAD\Constants.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\FileTags.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\KeywordPublisher.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\Packet.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\Protocols.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\Tag.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\Types.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\UDPSocket.h">
+      <Filter>Kad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\kademlia\Defines.h">
+      <Filter>Kad\kademlia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\kademlia\Entry.h">
+      <Filter>Kad\kademlia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\kademlia\Indexed.h">
+      <Filter>Kad\kademlia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\kademlia\Kademlia.h">
+      <Filter>Kad\kademlia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\kademlia\Prefs.h">
+      <Filter>Kad\kademlia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\kademlia\Search.h">
+      <Filter>Kad\kademlia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\kademlia\SearchManager.h">
+      <Filter>Kad\kademlia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kad\kademlia\UDPFirewallTester.h">
+      <Filter>Kad\kademlia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\net\KademliaUDPListener.h">
+      <Filter>Kad\net</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\net\PacketTracking.h">
+      <Filter>Kad\net</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\routing\Contact.h">
+      <Filter>Kad\routing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\routing\Maps.h">
+      <Filter>Kad\routing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\routing\RoutingBin.h">
+      <Filter>Kad\routing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\routing\RoutingZone.h">
+      <Filter>Kad\routing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\utils\KadClientSearcher.h">
+      <Filter>Kad\utils</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\utils\KadUDPKey.h">
+      <Filter>Kad\utils</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KAD\utils\UInt128.h">
+      <Filter>Kad\utils</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MuleKad.qrc">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kad\KeywordHelpers.h">
+      <Filter>Kad</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

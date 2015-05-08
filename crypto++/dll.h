@@ -1,0 +1,93 @@
+#ifndef CRYPTOPP_DLL_H
+#define CRYPTOPP_DLL_H
+
+#if !defined(CRYPTOPP_IMPORTS) && !defined(CRYPTOPP_EXPORTS) && !defined(CRYPTOPP_DEFAULT_NO_DLL)
+#ifdef CRYPTOPP_CONFIG_H
+#error To use the DLL version of Crypto++, this file must be included before any other Crypto++ header files.
+#endif
+#define CRYPTOPP_IMPORTS
+#endif
+
+#include "aes.h"
+#include "serpent.h"
+#include "twofish.h"
+#include "mars.h"
+#include "rc6.h"
+#include "cast.h"
+#include "cbcmac.h"
+#include "ccm.h"
+#include "cmac.h"
+#include "channels.h"
+#include "des.h"
+#include "dh.h"
+#include "dsa.h"
+#include "ec2n.h"
+#include "eccrypto.h"
+#include "ecp.h"
+#include "files.h"
+#include "fips140.h"
+#include "gcm.h"
+#include "eax.h"
+#include "hex.h"
+#include "hmac.h"
+#include "modes.h"
+#include "mqueue.h"
+#include "nbtheory.h"
+#include "osrng.h"
+#include "pkcspad.h"
+#include "pssr.h"
+#include "randpool.h"
+#include "rsa.h"
+#include "rw.h"
+#include "sha.h"
+#include "skipjack.h"
+#include "trdlocal.h"
+#include "rabin.h"
+#include "luc.h"
+#include "oids.h"
+#include "xtrcrypt.h"
+#include "salsa.h"
+#include "sosemanuk.h"
+#include "tiger.h"
+#include "whrlpool.h"
+#include "ripemd.h"
+#include "crc.h"
+
+#define CRYPTOPP_ENABLE_NAMESPACE_WEAK 1
+#include "arc4.h"
+#include "md5.h"
+#include "md4.h"
+#undef CRYPTOPP_ENABLE_NAMESPACE_WEAK
+
+#ifdef CRYPTOPP_IMPORTS
+
+#ifdef _DLL
+// cause CRT DLL to be initialized before Crypto++ so that we can use malloc and free during DllMain()
+#ifdef NDEBUG
+#pragma comment(lib, "msvcrt")
+#else
+#pragma comment(lib, "msvcrtd")
+#endif
+#endif
+
+#pragma comment(lib, "cryptopp")
+
+#endif		// #ifdef CRYPTOPP_IMPORTS
+
+#include <new>	// for new_handler
+
+NAMESPACE_BEGIN(CryptoPP)
+
+#if !(defined(_MSC_VER) && (_MSC_VER < 1300))
+using std::new_handler;
+#endif
+
+typedef void * (CRYPTOPP_API * PNew)(size_t);
+typedef void (CRYPTOPP_API * PDelete)(void *);
+typedef void (CRYPTOPP_API * PGetNewAndDelete)(PNew &, PDelete &);
+typedef new_handler (CRYPTOPP_API * PSetNewHandler)(new_handler);
+typedef void (CRYPTOPP_API * PSetNewAndDelete)(PNew, PDelete, PSetNewHandler);
+
+NAMESPACE_END
+
+#endif

@@ -1,0 +1,2449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resources\Templates">
+      <UniqueIdentifier>{ac22a922-8150-4596-ba9f-ecc7f1cc5686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{025a0c24-9886-448f-a980-18c1a1b19953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{ae627ab0-7427-429a-abd0-5bb353be3acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileTransfer">
+      <UniqueIdentifier>{a1b92342-b01c-416a-ba93-7cd775689d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileTransfer\BitTorrent">
+      <UniqueIdentifier>{326d41b1-9f14-421d-9e90-1427fd36939d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileTransfer\BitTorrent\TorrentTracker">
+      <UniqueIdentifier>{6ab4f75a-2911-485b-884e-e6511c7308cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileTransfer\Ed2kMule">
+      <UniqueIdentifier>{3bc8cab2-db31-4789-b8f4-91e875816881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{d05d0b17-4132-4a8b-8a9c-1d293641c28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileList">
+      <UniqueIdentifier>{f3ae35a5-5354-4343-aefa-c6314ce3e13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileList\Hashing">
+      <UniqueIdentifier>{770d4468-886d-4c0f-9d03-ff36d9c52ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileTransfer\NeoShare">
+      <UniqueIdentifier>{8c925f32-dc93-4451-b390-522fec8c408c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\KadScripts">
+      <UniqueIdentifier>{7d0f092e-1314-438c-aef6-8e186e28cdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSearch">
+      <UniqueIdentifier>{075c0af2-07bc-4b8b-896b-70d40f2588ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{20419ed5-b801-423b-8982-604645cd10b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\BandwidthControl">
+      <UniqueIdentifier>{5f36d6f9-40ff-40b6-8ce6-1c80aaae1b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\ScriptDebugger">
+      <UniqueIdentifier>{da3897dd-bc9f-4826-aa29-d8eb345873e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\ScriptDebugger\ResourceView">
+      <UniqueIdentifier>{eca1209a-edd1-47ec-9f5f-59c695535984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{c9cadaff-ccbf-4d14-85bf-85212d392ff2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{37fb4fde-86da-49fb-adc8-6f838a4f23ce}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Template_Win32">
+      <UniqueIdentifier>{68ef562f-bf11-43c5-bb68-47e8a4e75a08}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{970c0e12-9ca5-4fff-b780-a46b05376ef8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{215cae05-e960-43af-bcf5-bab94bc1c5a5}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Template_x64">
+      <UniqueIdentifier>{d79a3a60-7cbd-4ea6-8be0-eb0c10907783}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="FileTransfer\Ed2kMule\ServerClient">
+      <UniqueIdentifier>{4bdf6ce6-0206-46d9-a7eb-a2d77419beda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Caffeine">
+      <UniqueIdentifier>{fc138e54-e137-4598-9e53-4e99a95a07ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileTransfer\NeoShare\NeoKad">
+      <UniqueIdentifier>{a2b0a3fe-2a83-416c-8bc4-69ad23014bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\FUSE">
+      <UniqueIdentifier>{d7afece9-1835-4434-8aac-60098c6bafd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI\NeoLoader.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\WebUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\FileGrabber.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\PeerWatch.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\Transfer.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\UploadManager.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentClient.cpp">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentInfo.cpp">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentManager.cpp">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentPeer.cpp">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentSocket.cpp">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentTracker\TrackerClient.cpp">
+      <Filter>FileTransfer\BitTorrent\TorrentTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentTracker\TrackerServer.cpp">
+      <Filter>FileTransfer\BitTorrent\TorrentTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentTracker\UdpTrackerClient.cpp">
+      <Filter>FileTransfer\BitTorrent\TorrentTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\MuleKad.cpp">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\MuleManager.cpp">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\MuleSocket.cpp">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\MuleSource.cpp">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\MuleTags.cpp">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\CoreBus.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\CoreClient.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\CoreServer.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\InterfaceManager.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WebAPI.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WebRoot.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\File.cpp">
+      <Filter>FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\FileList.cpp">
+      <Filter>FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\FileManager.cpp">
+      <Filter>FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\IOManager.cpp">
+      <Filter>FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\PartMap.cpp">
+      <Filter>FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\Hashing\FileHash.cpp">
+      <Filter>FileList\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\Hashing\FileHashSet.cpp">
+      <Filter>FileList\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\Hashing\FileHashTree.cpp">
+      <Filter>FileList\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\Hashing\HashingThread.cpp">
+      <Filter>FileList\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\Hashing\UntrustedFileHash.cpp">
+      <Filter>FileList\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalHeader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="FileTransfer\BitTorrent\Torrent.cpp">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </ClCompile>
+    <ClCompile Include="NeoCore.cpp" />
+    <ClCompile Include="Common\Xml2.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoKad.cpp">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoManager.cpp">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSearch\Search.cpp">
+      <Filter>FileSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSearch\SearchManager.cpp">
+      <Filter>FileSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoEntity.cpp">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoClient.cpp">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\Hashing\FileHashTreeEx.cpp">
+      <Filter>FileList\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\ListenSocket.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\SocketThread.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\StreamSocket.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\BitTorrent\TorrentServer.cpp">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\MuleServer.cpp">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\HashInspector.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\BarShader.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\PartDownloader.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\FileStats.cpp">
+      <Filter>FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\DownloadManager.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\UTPSocket.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\TCPSocket.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoRoute.cpp">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoSession.cpp">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\BandwidthControl\BandwidthCounter.cpp">
+      <Filter>Networking\BandwidthControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\BandwidthControl\BandwidthLimit.cpp">
+      <Filter>Networking\BandwidthControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\BandwidthControl\BandwidthLimiter.cpp">
+      <Filter>Networking\BandwidthControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\BandwidthControl\BandwidthManager.cpp">
+      <Filter>Networking\BandwidthControl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\NeoScriptDebugger.cpp">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\ScriptRepositoryDialog.cpp">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\SessionLogWidget.cpp">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\ResourceView\ResourceView.cpp">
+      <Filter>GUI\ScriptDebugger\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\ResourceView\ResourceWidget.cpp">
+      <Filter>GUI\ScriptDebugger\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ScriptDebugger\ResourceView\XmlHighlighter.cpp">
+      <Filter>GUI\ScriptDebugger\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_XmlHighlighter.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_XmlHighlighter.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_XmlHighlighter.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_XmlHighlighter.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_XmlHighlighter.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_XmlHighlighter.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_UTPSocket.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_UTPSocket.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_UTPSocket.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_UTPSocket.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_UTPSocket.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_UTPSocket.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TorrentServer.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TorrentServer.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TorrentServer.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TorrentServer.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TorrentServer.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TorrentServer.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Torrent.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Torrent.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Torrent.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Torrent.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Torrent.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Torrent.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TCPSocket.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TCPSocket.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TCPSocket.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TCPSocket.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TCPSocket.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TCPSocket.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_StreamSocket.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_StreamSocket.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_StreamSocket.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_StreamSocket.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_StreamSocket.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_StreamSocket.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SocketThread.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SocketThread.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_SocketThread.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SocketThread.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SocketThread.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_SocketThread.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SessionLogWidget.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SessionLogWidget.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_SessionLogWidget.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SessionLogWidget.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SessionLogWidget.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_SessionLogWidget.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SearchManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SearchManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_SearchManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SearchManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SearchManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_SearchManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Search.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Search.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Search.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Search.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Search.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Search.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ScriptRepositoryDialog.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ScriptRepositoryDialog.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ScriptRepositoryDialog.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ScriptRepositoryDialog.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ScriptRepositoryDialog.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ScriptRepositoryDialog.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ResourceWidget.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ResourceWidget.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ResourceWidget.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ResourceWidget.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ResourceWidget.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ResourceWidget.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ResourceView.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ResourceView.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ResourceView.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ResourceView.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ResourceView.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ResourceView.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_PartDownloader.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_PartDownloader.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_PartDownloader.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_PartDownloader.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_PartDownloader.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_PartDownloader.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoSession.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoSession.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoSession.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoSession.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoSession.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoSession.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoScriptDebugger.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoScriptDebugger.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoScriptDebugger.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoScriptDebugger.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoScriptDebugger.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoScriptDebugger.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoRoute.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoRoute.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoRoute.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoRoute.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoRoute.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoRoute.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoKad.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoKad.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoKad.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoKad.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoKad.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoKad.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoEntity.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoEntity.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoEntity.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoEntity.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoEntity.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoEntity.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoCore.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoCore.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoCore.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoCore.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoCore.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoCore.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoClient.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoClient.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoClient.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoClient.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoClient.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoClient.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MuleServer.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MuleServer.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_MuleServer.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MuleServer.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MuleServer.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_MuleServer.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ListenSocket.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ListenSocket.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ListenSocket.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ListenSocket.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ListenSocket.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ListenSocket.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HashInspector.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HashInspector.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_HashInspector.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HashInspector.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HashInspector.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_HashInspector.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileStats.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileStats.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileStats.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileStats.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileStats.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileStats.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileHashTreeEx.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileHashTreeEx.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileHashTreeEx.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileHashTreeEx.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileHashTreeEx.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileHashTreeEx.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_BandwidthManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_BandwidthManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_BandwidthManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_BandwidthManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_BandwidthManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_BandwidthManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_BandwidthLimit.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_BandwidthLimit.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_BandwidthLimit.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_BandwidthLimit.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_BandwidthLimit.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_BandwidthLimit.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_BandwidthCounter.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_BandwidthCounter.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_BandwidthCounter.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_BandwidthCounter.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_BandwidthCounter.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_BandwidthCounter.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_WebUI.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_WebUI.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_WebUI.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_WebUI.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_WebUI.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_WebUI.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_WebRoot.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_WebRoot.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_WebRoot.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_WebRoot.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_WebRoot.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_WebRoot.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_WebAPI.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_WebAPI.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_WebAPI.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_WebAPI.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_WebAPI.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_WebAPI.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_UploadManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_UploadManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_UploadManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_UploadManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_UploadManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_UploadManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_UntrustedFileHash.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_UntrustedFileHash.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_UntrustedFileHash.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_UntrustedFileHash.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_UntrustedFileHash.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_UntrustedFileHash.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_UdpTrackerClient.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_UdpTrackerClient.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_UdpTrackerClient.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_UdpTrackerClient.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_UdpTrackerClient.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_UdpTrackerClient.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Transfer.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Transfer.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Transfer.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Transfer.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Transfer.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Transfer.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TrackerServer.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TrackerServer.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TrackerServer.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TrackerServer.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TrackerServer.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TrackerServer.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TrackerClient.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TrackerClient.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TrackerClient.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TrackerClient.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TrackerClient.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TrackerClient.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TorrentSocket.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TorrentSocket.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TorrentSocket.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TorrentSocket.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TorrentSocket.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TorrentSocket.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TorrentPeer.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TorrentPeer.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TorrentPeer.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TorrentPeer.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TorrentPeer.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TorrentPeer.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TorrentManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TorrentManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TorrentManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TorrentManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TorrentManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TorrentManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TorrentInfo.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TorrentInfo.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TorrentInfo.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TorrentInfo.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TorrentInfo.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TorrentInfo.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_TorrentClient.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_TorrentClient.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_TorrentClient.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_TorrentClient.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_TorrentClient.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_TorrentClient.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_PeerWatch.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_PeerWatch.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_PeerWatch.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_PeerWatch.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_PeerWatch.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_PeerWatch.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_PartMap.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_PartMap.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_PartMap.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_PartMap.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_PartMap.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_PartMap.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoLoader.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoLoader.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoLoader.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoLoader.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoLoader.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoLoader.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MuleSource.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MuleSource.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_MuleSource.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MuleSource.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MuleSource.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_MuleSource.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MuleSocket.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MuleSocket.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_MuleSocket.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MuleSocket.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MuleSocket.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_MuleSocket.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MuleManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MuleManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_MuleManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MuleManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MuleManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_MuleManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MuleKad.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MuleKad.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_MuleKad.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MuleKad.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MuleKad.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_MuleKad.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MuleClient.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MuleClient.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_MuleClient.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MuleClient.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MuleClient.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_MuleClient.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_IOManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_IOManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_IOManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_IOManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_IOManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_IOManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_InterfaceManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_InterfaceManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_InterfaceManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_InterfaceManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_InterfaceManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_InterfaceManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HashingThread.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HashingThread.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_HashingThread.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HashingThread.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HashingThread.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_HashingThread.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileManager.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileManager.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileManager.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileManager.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileManager.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileManager.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileList.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileList.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileList.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileList.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileList.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileList.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileHashTree.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileHashTree.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileHashTree.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileHashTree.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileHashTree.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileHashTree.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileHashSet.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileHashSet.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileHashSet.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileHashSet.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileHashSet.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileHashSet.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileHash.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileHash.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileHash.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileHash.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileHash.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileHash.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileGrabber.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileGrabber.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileGrabber.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileGrabber.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileGrabber.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileGrabber.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_File.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_File.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_File.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_File.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_File.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_File.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CoreServer.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CoreServer.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_CoreServer.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CoreServer.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CoreServer.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_CoreServer.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CoreClient.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CoreClient.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_CoreClient.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CoreClient.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CoreClient.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_CoreClient.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CoreBus.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CoreBus.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_CoreBus.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CoreBus.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CoreBus.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_CoreBus.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="$(PlatformName)\GeneratedFiles\qrc_NeoLoader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\CorruptionLogger.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_CorruptionLogger.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_CorruptionLogger.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_CorruptionLogger.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_CorruptionLogger.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_CorruptionLogger.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_CorruptionLogger.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\Pinger.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Pinger.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Pinger.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Pinger.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Pinger.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Pinger.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Pinger.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\MuleCollection.cpp">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_MuleCollection.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_MuleCollection.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_MuleCollection.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_MuleCollection.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_MuleCollection.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_MuleCollection.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\Hashing\HashingJobs.cpp">
+      <Filter>FileList\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HashingJobs.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HashingJobs.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HashingJobs.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HashingJobs.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_HashingJobs.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_HashingJobs.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ServerClient.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ServerClient.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ServerClient.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ServerClient.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ServerClient.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ServerClient.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\ServerClient\ServerClient.cpp">
+      <Filter>FileTransfer\Ed2kMule\ServerClient</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\ServerClient\ServerList.cpp">
+      <Filter>FileTransfer\Ed2kMule\ServerClient</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\ServerClient\Ed2kServer.cpp">
+      <Filter>FileTransfer\Ed2kMule\ServerClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Ed2kServer.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Ed2kServer.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Ed2kServer.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Ed2kServer.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Ed2kServer.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Ed2kServer.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_ServerList.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_ServerList.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_ServerList.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_ServerList.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_ServerList.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_ServerList.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TuringTools.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Caffeine\Caffeine.cpp">
+      <Filter>Common\Caffeine</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Caffeine.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Caffeine.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Caffeine.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Caffeine.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Caffeine.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Caffeine.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Caffeine\Caffeine_win.cpp">
+      <Filter>Common\Caffeine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MemInfo_win.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\ed2kMule\MuleClient.cpp">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FWWatch.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FWWatch.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FWWatch.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FWWatch.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FWWatch.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FWWatch.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\FWWatch.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoKad\FilePublisher.cpp">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FilePublisher.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FilePublisher.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FilePublisher.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FilePublisher.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FilePublisher.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FilePublisher.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoKad\HashPublisher.cpp">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_HashPublisher.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_HashPublisher.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_HashPublisher.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_HashPublisher.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_HashPublisher.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_HashPublisher.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoKad\KadPublisher.cpp">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_KadPublisher.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_KadPublisher.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_KadPublisher.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_KadPublisher.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_KadPublisher.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_KadPublisher.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoKad\KeywordPublisher.cpp">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_KeywordPublisher.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_KeywordPublisher.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_KeywordPublisher.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_KeywordPublisher.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_KeywordPublisher.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_KeywordPublisher.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoKad\LinkPublisher.cpp">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_LinkPublisher.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_LinkPublisher.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_LinkPublisher.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_LinkPublisher.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_LinkPublisher.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_LinkPublisher.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoKad\RatingPublisher.cpp">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_RatingPublisher.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_RatingPublisher.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_RatingPublisher.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_RatingPublisher.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_RatingPublisher.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_RatingPublisher.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\NeoShare\NeoKad\SourcePublisher.cpp">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SourcePublisher.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SourcePublisher.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SourcePublisher.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SourcePublisher.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_SourcePublisher.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_SourcePublisher.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_BandwidthLimiter.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_BandwidthLimiter.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_BandwidthLimiter.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_BandwidthLimiter.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_BandwidthLimiter.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_BandwidthLimiter.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSearch\SearchAgent.cpp">
+      <Filter>FileSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_SearchAgent.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_SearchAgent.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_SearchAgent.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_SearchAgent.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_SearchAgent.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_SearchAgent.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\FUSE\Fuse.cpp">
+      <Filter>Common\FUSE</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\NeoFS.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_NeoFS.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_NeoFS.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_NeoFS.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_NeoFS.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_NeoFS.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_NeoFS.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Fuse.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Fuse.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Fuse.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Fuse.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Fuse.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Fuse.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSearch\FileTypes.cpp">
+      <Filter>FileSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSearch\Collection.cpp">
+      <Filter>FileSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_Collection.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_Collection.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_Collection.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_Collection.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_Collection.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_Collection.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList\FileDetails.cpp">
+      <Filter>FileList</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_FileDetails.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_FileDetails.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_FileDetails.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_FileDetails.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_FileDetails.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_FileDetails.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Variant.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\P2PClient.cpp">
+      <Filter>FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Debug\moc_P2PClient.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Debug\moc_P2PClient.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Release\moc_P2PClient.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Release\moc_P2PClient.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\GeneratedFiles\Template\moc_P2PClient.cpp">
+      <Filter>Generated Files\Template_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\GeneratedFiles\Template\moc_P2PClient.cpp">
+      <Filter>Generated Files\Template_x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NeoLoader.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="Resources\combo.css">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\combo.js">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\DebugLog.ico">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\ErrPattern.png">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\Home.ico">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\httpError.html">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\Log.ico">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\logo_small.png">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\style.css">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\WebFunctions.js">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\WndHelper.js">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\index.html">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\Login.html">
+      <Filter>Resources</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Resources\NeoLoader.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\ValueMap.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\NeoLoader.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\WebUI.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\FileGrabber.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\PeerWatch.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\Transfer.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\UploadManager.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentClient.h">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentInfo.h">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentManager.h">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentPeer.h">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentSocket.h">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentTracker\TrackerClient.h">
+      <Filter>FileTransfer\BitTorrent\TorrentTracker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentTracker\TrackerServer.h">
+      <Filter>FileTransfer\BitTorrent\TorrentTracker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentTracker\UdpTrackerClient.h">
+      <Filter>FileTransfer\BitTorrent\TorrentTracker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\MuleClient.h">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\MuleKad.h">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\MuleManager.h">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\MuleSocket.h">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\MuleSource.h">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Interface\CoreBus.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Interface\CoreClient.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Interface\CoreServer.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Interface\InterfaceManager.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Interface\WebAPI.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Interface\WebRoot.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\File.h">
+      <Filter>FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\FileList.h">
+      <Filter>FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\FileManager.h">
+      <Filter>FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\IOManager.h">
+      <Filter>FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\PartMap.h">
+      <Filter>FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\Hashing\FileHash.h">
+      <Filter>FileList\Hashing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\Hashing\FileHashSet.h">
+      <Filter>FileList\Hashing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\Hashing\FileHashTree.h">
+      <Filter>FileList\Hashing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\Hashing\HashingThread.h">
+      <Filter>FileList\Hashing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\Hashing\UntrustedFileHash.h">
+      <Filter>FileList\Hashing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\Torrent.h">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NeoCore.h" />
+    <CustomBuild Include="FileTransfer\NeoShare\NeoManager.h">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoKad.h">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileSearch\Search.h">
+      <Filter>FileSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileSearch\SearchManager.h">
+      <Filter>FileSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoEntity.h">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoClient.h">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\Hashing\FileHashTreeEx.h">
+      <Filter>FileList\Hashing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\ListenSocket.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\SocketThread.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\StreamSocket.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\BitTorrent\TorrentServer.h">
+      <Filter>FileTransfer\BitTorrent</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\HashInspector.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\PartDownloader.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\FileStats.h">
+      <Filter>FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\UTPSocket.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\MuleServer.h">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\TCPSocket.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoRoute.h">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoSession.h">
+      <Filter>FileTransfer\NeoShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\BandwidthControl\BandwidthCounter.h">
+      <Filter>Networking\BandwidthControl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\BandwidthControl\BandwidthLimit.h">
+      <Filter>Networking\BandwidthControl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\BandwidthControl\BandwidthManager.h">
+      <Filter>Networking\BandwidthControl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\NeoScriptDebugger.h">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\ScriptRepositoryDialog.h">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\SessionLogWidget.h">
+      <Filter>GUI\ScriptDebugger</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\ResourceView\ResourceView.h">
+      <Filter>GUI\ScriptDebugger\ResourceView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\ResourceView\ResourceWidget.h">
+      <Filter>GUI\ScriptDebugger\ResourceView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\ScriptDebugger\ResourceView\XmlHighlighter.h">
+      <Filter>GUI\ScriptDebugger\ResourceView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GlobalHeader.h" />
+    <CustomBuild Include="Resources\Icon16.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icon32.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Icon64.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\NeoLoader.ico">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\About.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Config.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Console.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Container.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Files.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Grabber.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Links.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Login.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Main.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Maker.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Prompt.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Search.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Solver.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Tasks.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Torrent.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Templates\Upload.html">
+      <Filter>Resources\Templates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\KadScripts\FileRepository.js">
+      <Filter>Resources\KadScripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\KadScripts\Index.inf">
+      <Filter>Resources\KadScripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\KadScripts\KeywordIndex.js">
+      <Filter>Resources\KadScripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\KadScripts\LinkSafe.js">
+      <Filter>Resources\KadScripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\KadScripts\RatingAgent.js">
+      <Filter>Resources\KadScripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\KadScripts\SharingHub.js">
+      <Filter>Resources\KadScripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\KadScripts\SourceTracker.js">
+      <Filter>Resources\KadScripts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\Xml2.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\BarShader.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\DownloadManager.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\MuleTags.h">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\StatusMap.h">
+      <Filter>FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\BandwidthControl\BandwidthLimiter.h">
+      <Filter>Networking\BandwidthControl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\CorruptionLogger.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NeoLoader_de.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Networking\Pinger.h">
+      <Filter>Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\MuleCollection.h">
+      <Filter>FileTransfer\Ed2kMule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\Hashing\HashingJobs.h">
+      <Filter>FileList\Hashing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\ServerClient\ServerClient.h">
+      <Filter>FileTransfer\Ed2kMule\ServerClient</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\ServerClient\Ed2kServer.h">
+      <Filter>FileTransfer\Ed2kMule\ServerClient</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\ed2kMule\ServerClient\ServerList.h">
+      <Filter>FileTransfer\Ed2kMule\ServerClient</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\Caffeine\Caffeine.h">
+      <Filter>Common\Caffeine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\MemInfo.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\FWWatch.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoKad\FilePublisher.h">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoKad\HashPublisher.h">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoKad\KadPublisher.h">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoKad\KeywordPublisher.h">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoKad\LinkPublisher.h">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoKad\RatingPublisher.h">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\NeoShare\NeoKad\SourcePublisher.h">
+      <Filter>FileTransfer\NeoShare\NeoKad</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileSearch\SearchAgent.h">
+      <Filter>FileSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Interface\NeoFS.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Common\FUSE\Fuse.h">
+      <Filter>Common\FUSE</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileSearch\Collection.h">
+      <Filter>FileSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileList\FileDetails.h">
+      <Filter>FileList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileTransfer\P2PClient.h">
+      <Filter>FileTransfer</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Splash.gif">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="NeoLoader_it.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="NeoLoader_es.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="NeoLoader_pl.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="NeoLoader_zh.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\SimpleDH.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\KeygenRSA.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\TuringTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NeoVersion.h" />
+    <ClInclude Include="FileSearch\FileTypes.h">
+      <Filter>FileSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Variant.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

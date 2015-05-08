@@ -1,0 +1,65 @@
+#!/bin/bash
+
+prefix="/usr/local"
+qtdir=""
+includedir=""
+librarydir=""
+
+for opt in "$@" ; do
+	case $opt in
+	--debug)
+	        features="$features debug"
+		;;
+	--home)
+		prefix="$HOME"
+		librarydir="$HOME/lib"
+		includedir="$HOME/include"
+		;;
+	--prefix=*)
+		prefix=$(echo $opt | sed -n 's/--prefix=\(.*\)/\1/p')
+		;;
+	--qtdir=*)
+		qtdir=$(echo $opt | sed -n 's/--qtdir=\(.*\)/\1/p')
+		;;
+	--help)
+		echo
+		echo "Valid options are:"
+		echo "--debug                Compile a debug version (no optimizations, etc)"
+		echo "--home                 Install to home directory: \$HOME"
+		echo "--prefix=dir           Install to prefix 'dir'"
+		echo "--qtdir=dir            Use qt from 'dir'"
+		echo "                       but copy files to 'dest/prefix' on make install"
+		exit
+		;;
+	*)
+		echo "Unknown configure parameter: $opt"
+		exit 1
+		;;
+	esac
+done
+
+qmakeexe="$qtdir/bin/qmake"
+if test ! -x "$qmakeexe" ; then
+    qmakeexe=qmake-qt4
+fi
+echo "Using qmake at $qmakeexe"
+
+if test -z "$librarydir" ; then
+    echoedlibrarydir="$prefix/lib"
+else
+    echoedlibrarydir="$librarydir"
+fi
+if test -z "$includedir" ; then
+    echoedincludedir="$prefix/include"
+else
+    echoedincludedir="$includedir"
+fi
+
+echo ""
+echo "Prefix:            $prefix"
+echo "Include directory: $echoedincludedir"
+echo "Library directory: $echoedlibrarydir"
+
+rm -f Makefile
+
+"$qmakeexe" "PREFIX=$prefix" "INCLUDEDIR=$includedir" "LIBRARYDIR=$librarydir"
